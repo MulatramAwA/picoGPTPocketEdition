@@ -1,4 +1,8 @@
 import gpt2_pico
+import json
+langfile=open('./lang.json','r')
+langdict=json.load(langfile)
+print('Using language:'+langdict['language'])
 def multiInput(promt):
     a=''
     while True:
@@ -17,7 +21,7 @@ def intInput(promt):
         try:
             a=int(input(promt))
         except:
-            promt='请输入数字:'
+            promt=langdict['inputInt']
         else:
             break
     return a
@@ -27,10 +31,10 @@ def inputMember(promt,List):
         if a in List:
             break
         else:
-            promt='请输入在'+str(List)+'之中的数据:'
+            promt=langdict['inputAmoungA']+str(List)+langdict['inputAmoungB']
     return a
 while True:
-    text=multiInput('您要扩写的内容(请使用英语,ctrl+Z后回车结束):\n')
-    tokenum=intInput('您想要生成的字符数:')
-    model_size=inputMember('您需要的模型大小(124M|355M|774M|1558M):',["124M", "355M", "774M", "1558M"])
+    text=multiInput(langdict['promtA'])
+    tokenum=intInput(langdict['promtB'])
+    model_size=inputMember(langdict['promtC']+'(124M|355M|774M|1558M):',["124M", "355M", "774M", "1558M"])
     print(text+gpt2_pico.main(text,tokenum,model_size))
