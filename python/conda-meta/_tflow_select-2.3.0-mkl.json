@@ -1,0 +1,34 @@
+{
+  "build": "mkl",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "D:\\Anaconda\\pkgs\\_tflow_select-2.3.0-mkl",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "_tflow_select-2.3.0-mkl.conda",
+  "legacy_bz2_md5": "057245f0ffc8c7becdba042af6cb786a",
+  "legacy_bz2_size": 3554,
+  "link": {
+    "source": "D:\\Anaconda\\pkgs\\_tflow_select-2.3.0-mkl",
+    "type": 1
+  },
+  "md5": "f72a007f439f0f7f06ffd20a6aac6ab2",
+  "name": "_tflow_select",
+  "package_tarball_full_path": "D:\\Anaconda\\pkgs\\_tflow_select-2.3.0-mkl.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4138659712ac63381ea48686597dc50bfe19971d8d93093bf1285116a19618b7",
+  "size": 3422,
+  "subdir": "win-64",
+  "timestamp": 1538709809837,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64/_tflow_select-2.3.0-mkl.conda",
+  "version": "2.3.0"
+}

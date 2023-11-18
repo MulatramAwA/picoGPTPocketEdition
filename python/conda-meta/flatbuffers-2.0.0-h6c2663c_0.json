@@ -1,0 +1,241 @@
+{
+  "build": "h6c2663c_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "D:\\Anaconda\\pkgs\\flatbuffers-2.0.0-h6c2663c_0",
+  "features": "",
+  "files": [
+    "Library/bin/flatc.exe",
+    "Library/include/flatbuffers/base.h",
+    "Library/include/flatbuffers/code_generators.h",
+    "Library/include/flatbuffers/flatbuffers.h",
+    "Library/include/flatbuffers/flatc.h",
+    "Library/include/flatbuffers/flexbuffers.h",
+    "Library/include/flatbuffers/grpc.h",
+    "Library/include/flatbuffers/hash.h",
+    "Library/include/flatbuffers/idl.h",
+    "Library/include/flatbuffers/minireflect.h",
+    "Library/include/flatbuffers/pch/flatc_pch.h",
+    "Library/include/flatbuffers/pch/pch.h",
+    "Library/include/flatbuffers/reflection.h",
+    "Library/include/flatbuffers/reflection_generated.h",
+    "Library/include/flatbuffers/registry.h",
+    "Library/include/flatbuffers/stl_emulation.h",
+    "Library/include/flatbuffers/util.h",
+    "Library/lib/cmake/flatbuffers/FlatbuffersConfig.cmake",
+    "Library/lib/cmake/flatbuffers/FlatbuffersConfigVersion.cmake",
+    "Library/lib/cmake/flatbuffers/FlatbuffersTargets-release.cmake",
+    "Library/lib/cmake/flatbuffers/FlatbuffersTargets.cmake",
+    "Library/lib/cmake/flatbuffers/FlatcTargets-release.cmake",
+    "Library/lib/cmake/flatbuffers/FlatcTargets.cmake",
+    "Library/lib/flatbuffers.lib",
+    "Library/lib/pkgconfig/flatbuffers.pc",
+    ".nonadmin"
+  ],
+  "fn": "flatbuffers-2.0.0-h6c2663c_0.conda",
+  "legacy_bz2_md5": "518f7695450e8118b6d14d3d6eeac482",
+  "legacy_bz2_size": 1879231,
+  "license": "Apache-2.0",
+  "link": {
+    "source": "D:\\Anaconda\\pkgs\\flatbuffers-2.0.0-h6c2663c_0",
+    "type": 1
+  },
+  "md5": "c9138dcc0ed334deea4d9379bcc67910",
+  "name": "flatbuffers",
+  "package_tarball_full_path": "D:\\Anaconda\\pkgs\\flatbuffers-2.0.0-h6c2663c_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/flatc.exe",
+        "path_type": "hardlink",
+        "sha256": "2b04ec1c0f6250d7d6e257f6487f33c3c3497673bbb99f2aa1248ebf5f04d202",
+        "sha256_in_prefix": "2b04ec1c0f6250d7d6e257f6487f33c3c3497673bbb99f2aa1248ebf5f04d202",
+        "size_in_bytes": 2774528
+      },
+      {
+        "_path": "Library/include/flatbuffers/base.h",
+        "path_type": "hardlink",
+        "sha256": "fda4770af5affd632a972f31c89b79feffe2a485b31d3fc77e43fd343fe1780c",
+        "sha256_in_prefix": "fda4770af5affd632a972f31c89b79feffe2a485b31d3fc77e43fd343fe1780c",
+        "size_in_bytes": 14988
+      },
+      {
+        "_path": "Library/include/flatbuffers/code_generators.h",
+        "path_type": "hardlink",
+        "sha256": "bdc2461cd0886a193a4cc1b06df4a7017aa94247b70f854c1d38518716b1eda1",
+        "sha256_in_prefix": "bdc2461cd0886a193a4cc1b06df4a7017aa94247b70f854c1d38518716b1eda1",
+        "size_in_bytes": 8108
+      },
+      {
+        "_path": "Library/include/flatbuffers/flatbuffers.h",
+        "path_type": "hardlink",
+        "sha256": "0bf9d769bef0865b85c3d632db1852240c38d55dca90610768b055c84eba7c9f",
+        "sha256_in_prefix": "0bf9d769bef0865b85c3d632db1852240c38d55dca90610768b055c84eba7c9f",
+        "size_in_bytes": 108938
+      },
+      {
+        "_path": "Library/include/flatbuffers/flatc.h",
+        "path_type": "hardlink",
+        "sha256": "4cbfaaed73be1dc46b153daf9140ba950882405196350c3ae456a2915e716ed8",
+        "sha256_in_prefix": "4cbfaaed73be1dc46b153daf9140ba950882405196350c3ae456a2915e716ed8",
+        "size_in_bytes": 3136
+      },
+      {
+        "_path": "Library/include/flatbuffers/flexbuffers.h",
+        "path_type": "hardlink",
+        "sha256": "12e66d1a19b1f546d45254fb01842875360cf1be50bd7445120a331471b7cdf9",
+        "sha256_in_prefix": "12e66d1a19b1f546d45254fb01842875360cf1be50bd7445120a331471b7cdf9",
+        "size_in_bytes": 56093
+      },
+      {
+        "_path": "Library/include/flatbuffers/grpc.h",
+        "path_type": "hardlink",
+        "sha256": "47093aba0022fa17a9203cc18401011f0b0f52e7e3b8558b625840a40c80a7ab",
+        "sha256_in_prefix": "47093aba0022fa17a9203cc18401011f0b0f52e7e3b8558b625840a40c80a7ab",
+        "size_in_bytes": 11901
+      },
+      {
+        "_path": "Library/include/flatbuffers/hash.h",
+        "path_type": "hardlink",
+        "sha256": "c8ef6b8b751f7f180fe773644f3075d43a4e2d8e57d2d2ee4c283cae387e0169",
+        "sha256_in_prefix": "c8ef6b8b751f7f180fe773644f3075d43a4e2d8e57d2d2ee4c283cae387e0169",
+        "size_in_bytes": 3627
+      },
+      {
+        "_path": "Library/include/flatbuffers/idl.h",
+        "path_type": "hardlink",
+        "sha256": "188cca471669f6a606ce5c1c97bb6257cacea0b1663db93f5bbfc8b676f80ef4",
+        "sha256_in_prefix": "188cca471669f6a606ce5c1c97bb6257cacea0b1663db93f5bbfc8b676f80ef4",
+        "size_in_bytes": 43896
+      },
+      {
+        "_path": "Library/include/flatbuffers/minireflect.h",
+        "path_type": "hardlink",
+        "sha256": "17d598a1d82a689aa8d252b14e0236180bcd67fa67d6e0376cb65c72113d800c",
+        "sha256_in_prefix": "17d598a1d82a689aa8d252b14e0236180bcd67fa67d6e0376cb65c72113d800c",
+        "size_in_bytes": 13523
+      },
+      {
+        "_path": "Library/include/flatbuffers/pch/flatc_pch.h",
+        "path_type": "hardlink",
+        "sha256": "37195f7b266d7fe3c22f4c9f9ac24312cfd531bae348286617dd0ca07a11cd29",
+        "sha256_in_prefix": "37195f7b266d7fe3c22f4c9f9ac24312cfd531bae348286617dd0ca07a11cd29",
+        "size_in_bytes": 1119
+      },
+      {
+        "_path": "Library/include/flatbuffers/pch/pch.h",
+        "path_type": "hardlink",
+        "sha256": "5d5d75331e551c125476f0ee7e5deb75952783b5042c520116c433a8d9d8fadc",
+        "sha256_in_prefix": "5d5d75331e551c125476f0ee7e5deb75952783b5042c520116c433a8d9d8fadc",
+        "size_in_bytes": 995
+      },
+      {
+        "_path": "Library/include/flatbuffers/reflection.h",
+        "path_type": "hardlink",
+        "sha256": "709734ddd98b7fc80c7e98bc4de82fe91c37ba04b6e4aca01ccef4fbe4e512e2",
+        "sha256_in_prefix": "709734ddd98b7fc80c7e98bc4de82fe91c37ba04b6e4aca01ccef4fbe4e512e2",
+        "size_in_bytes": 21191
+      },
+      {
+        "_path": "Library/include/flatbuffers/reflection_generated.h",
+        "path_type": "hardlink",
+        "sha256": "9710fa888d0d8a6fffc1446b80a651bf4e67c1839ce336df890c88fb5a93e419",
+        "sha256_in_prefix": "9710fa888d0d8a6fffc1446b80a651bf4e67c1839ce336df890c88fb5a93e419",
+        "size_in_bytes": 46729
+      },
+      {
+        "_path": "Library/include/flatbuffers/registry.h",
+        "path_type": "hardlink",
+        "sha256": "262c011612181bb3febf55c51b54842c3ff7f849f955f8b17a70175daeae99fa",
+        "sha256_in_prefix": "262c011612181bb3febf55c51b54842c3ff7f849f955f8b17a70175daeae99fa",
+        "size_in_bytes": 4489
+      },
+      {
+        "_path": "Library/include/flatbuffers/stl_emulation.h",
+        "path_type": "hardlink",
+        "sha256": "ecbfc7498d525dbc64daef3ca8e34fef191f6423438db6300be787ffcc09b592",
+        "sha256_in_prefix": "ecbfc7498d525dbc64daef3ca8e34fef191f6423438db6300be787ffcc09b592",
+        "size_in_bytes": 23541
+      },
+      {
+        "_path": "Library/include/flatbuffers/util.h",
+        "path_type": "hardlink",
+        "sha256": "66ad467b2a7f3759ad0747a6b962b9781c87256e71713aa4c89bbdd7a89c2895",
+        "sha256_in_prefix": "66ad467b2a7f3759ad0747a6b962b9781c87256e71713aa4c89bbdd7a89c2895",
+        "size_in_bytes": 25433
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/FlatbuffersConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "b8db75c467e51a0ec405052c602e6c215a19aece12b345686871a826b2bbceb2",
+        "sha256_in_prefix": "b8db75c467e51a0ec405052c602e6c215a19aece12b345686871a826b2bbceb2",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/FlatbuffersConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "bfda2e0ace2005dd0766d3addc9cb1802bfb79b42eb37c124d0d47fa28221dc0",
+        "sha256_in_prefix": "bfda2e0ace2005dd0766d3addc9cb1802bfb79b42eb37c124d0d47fa28221dc0",
+        "size_in_bytes": 378
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/FlatbuffersTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "b01fe6a96dad2a156c829820342163ce1215aff2cfd8f3c972e11c45964313db",
+        "sha256_in_prefix": "b01fe6a96dad2a156c829820342163ce1215aff2cfd8f3c972e11c45964313db",
+        "size_in_bytes": 908
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/FlatbuffersTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "e9c1795e1d498080325f063629078729a0546f0f5e1dd9b86c3d05f59bb199b2",
+        "sha256_in_prefix": "e9c1795e1d498080325f063629078729a0546f0f5e1dd9b86c3d05f59bb199b2",
+        "size_in_bytes": 3397
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/FlatcTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "b31fe6c1f0f27ba65617b65f0a492ff8efd50c1d56261390026bfbe67d694bf4",
+        "sha256_in_prefix": "b31fe6c1f0f27ba65617b65f0a492ff8efd50c1d56261390026bfbe67d694bf4",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/FlatcTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "1b71946cc9e25f2e531ccc59e805b8a92ef76054c90283f98d24e501dd28f03b",
+        "sha256_in_prefix": "1b71946cc9e25f2e531ccc59e805b8a92ef76054c90283f98d24e501dd28f03b",
+        "size_in_bytes": 3360
+      },
+      {
+        "_path": "Library/lib/flatbuffers.lib",
+        "path_type": "hardlink",
+        "sha256": "69c9e5e6a684eafdf69bebd6c811ca6b13e98fd849ef54740a266a43e6281021",
+        "sha256_in_prefix": "69c9e5e6a684eafdf69bebd6c811ca6b13e98fd849ef54740a266a43e6281021",
+        "size_in_bytes": 9176390
+      },
+      {
+        "_path": "Library/lib/pkgconfig/flatbuffers.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/flatbuffers_1620825958678/_h_env",
+        "sha256": "3733848bdffa5b3925d756ba2ba1622193e8f9c2c793b3ae581cb37a20c2b18e",
+        "sha256_in_prefix": "e5b9fd02b18a6b0c7b7a1d9d31671fffc3e094c8cbe345277f91d812bc9dbcf9",
+        "size_in_bytes": 276
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "10dbf32df5747f2b5f388952ff50edea4781d026873acdb52afd62e42564a335",
+  "size": 1454588,
+  "subdir": "win-64",
+  "timestamp": 1620826057100,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64/flatbuffers-2.0.0-h6c2663c_0.conda",
+  "version": "2.0.0"
+}

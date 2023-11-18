@@ -1,0 +1,135 @@
+{
+  "build": "py39haa95532_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "D:\\Anaconda\\pkgs\\zipp-3.11.0-py39haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/zipp-3.11.0.dist-info/INSTALLER",
+    "Lib/site-packages/zipp-3.11.0.dist-info/LICENSE",
+    "Lib/site-packages/zipp-3.11.0.dist-info/METADATA",
+    "Lib/site-packages/zipp-3.11.0.dist-info/RECORD",
+    "Lib/site-packages/zipp-3.11.0.dist-info/REQUESTED",
+    "Lib/site-packages/zipp-3.11.0.dist-info/WHEEL",
+    "Lib/site-packages/zipp-3.11.0.dist-info/direct_url.json",
+    "Lib/site-packages/zipp-3.11.0.dist-info/top_level.txt",
+    "Lib/site-packages/zipp/__init__.py",
+    "Lib/site-packages/zipp/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/zipp/__pycache__/py310compat.cpython-39.pyc",
+    "Lib/site-packages/zipp/py310compat.py",
+    ".nonadmin"
+  ],
+  "fn": "zipp-3.11.0-py39haa95532_0.conda",
+  "legacy_bz2_md5": "6875e0bf3828707dc9165d694c0d0a7d",
+  "legacy_bz2_size": 18725,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "D:\\Anaconda\\pkgs\\zipp-3.11.0-py39haa95532_0",
+    "type": 1
+  },
+  "md5": "96851219e7bd3946fc83327fab3baa30",
+  "name": "zipp",
+  "package_tarball_full_path": "D:\\Anaconda\\pkgs\\zipp-3.11.0-py39haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/zipp-3.11.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/zipp-3.11.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "sha256_in_prefix": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "Lib/site-packages/zipp-3.11.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "26faa4ee8532677c4b24cf14cf774b4a45e5ba17183452bffac895938c9c5e71",
+        "sha256_in_prefix": "26faa4ee8532677c4b24cf14cf774b4a45e5ba17183452bffac895938c9c5e71",
+        "size_in_bytes": 3671
+      },
+      {
+        "_path": "Lib/site-packages/zipp-3.11.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cb1fab953989d10db2f4400ddb134ab46a0f6bc725af9ff2cd180d8146d3cdca",
+        "sha256_in_prefix": "cb1fab953989d10db2f4400ddb134ab46a0f6bc725af9ff2cd180d8146d3cdca",
+        "size_in_bytes": 886
+      },
+      {
+        "_path": "Lib/site-packages/zipp-3.11.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/zipp-3.11.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/zipp-3.11.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "629ddbf74a481565043e2f6c0e85862b7dba058e00b515d12dfb010a3cfa5bd6",
+        "sha256_in_prefix": "629ddbf74a481565043e2f6c0e85862b7dba058e00b515d12dfb010a3cfa5bd6",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "Lib/site-packages/zipp-3.11.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8806dda121df686a817d56f65ee47d26a4901c2a0eb0eb46eb2f42fcb4a9a85c",
+        "sha256_in_prefix": "8806dda121df686a817d56f65ee47d26a4901c2a0eb0eb46eb2f42fcb4a9a85c",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/zipp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fe04aa553a2b89e7e0570466de1d85fa6524dd34260ac036e2c2fc87888bdbcb",
+        "sha256_in_prefix": "fe04aa553a2b89e7e0570466de1d85fa6524dd34260ac036e2c2fc87888bdbcb",
+        "size_in_bytes": 9974
+      },
+      {
+        "_path": "Lib/site-packages/zipp/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5f01c681f6560098acfad33c0ab5e04013b9381e231576c3e036015598e9367",
+        "sha256_in_prefix": "c5f01c681f6560098acfad33c0ab5e04013b9381e231576c3e036015598e9367",
+        "size_in_bytes": 12543
+      },
+      {
+        "_path": "Lib/site-packages/zipp/__pycache__/py310compat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3a95d7e96b71384e1e2952213499b8e372d8386f1c88a605ba90cb8a7af2ede",
+        "sha256_in_prefix": "b3a95d7e96b71384e1e2952213499b8e372d8386f1c88a605ba90cb8a7af2ede",
+        "size_in_bytes": 385
+      },
+      {
+        "_path": "Lib/site-packages/zipp/py310compat.py",
+        "path_type": "hardlink",
+        "sha256": "1d01b821ff9e239bf8453f3651a824ecfb8bb1b9c9ec72a08f4690286440a7c3",
+        "sha256_in_prefix": "1d01b821ff9e239bf8453f3651a824ecfb8bb1b9c9ec72a08f4690286440a7c3",
+        "size_in_bytes": 309
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "278dfca9fdc52c4426f00c3fb157b6e40271948ee993485eaa2c9a764329eedd",
+  "size": 20364,
+  "subdir": "win-64",
+  "timestamp": 1672387612937,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64/zipp-3.11.0-py39haa95532_0.conda",
+  "version": "3.11.0"
+}

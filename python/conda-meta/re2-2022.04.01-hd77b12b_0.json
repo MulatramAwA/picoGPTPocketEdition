@@ -1,0 +1,119 @@
+{
+  "build": "hd77b12b_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "D:\\Anaconda\\pkgs\\re2-2022.04.01-hd77b12b_0",
+  "features": "",
+  "files": [
+    "Library/bin/re2.dll",
+    "Library/include/re2/filtered_re2.h",
+    "Library/include/re2/re2.h",
+    "Library/include/re2/set.h",
+    "Library/include/re2/stringpiece.h",
+    "Library/lib/cmake/re2/re2Config.cmake",
+    "Library/lib/cmake/re2/re2ConfigVersion.cmake",
+    "Library/lib/cmake/re2/re2Targets-release.cmake",
+    "Library/lib/cmake/re2/re2Targets.cmake",
+    "Library/lib/re2.lib",
+    ".nonadmin"
+  ],
+  "fn": "re2-2022.04.01-hd77b12b_0.conda",
+  "legacy_bz2_md5": "add2dfb15b518144663fc3b897d66da7",
+  "legacy_bz2_size": 493391,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "D:\\Anaconda\\pkgs\\re2-2022.04.01-hd77b12b_0",
+    "type": 1
+  },
+  "md5": "6c4e835222173ecd5bf0a39896690470",
+  "name": "re2",
+  "package_tarball_full_path": "D:\\Anaconda\\pkgs\\re2-2022.04.01-hd77b12b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/re2.dll",
+        "path_type": "hardlink",
+        "sha256": "68753a4e75aa63e881f5853747c31f5a1db855202cb637d891d617495afa98d0",
+        "sha256_in_prefix": "68753a4e75aa63e881f5853747c31f5a1db855202cb637d891d617495afa98d0",
+        "size_in_bytes": 1217024
+      },
+      {
+        "_path": "Library/include/re2/filtered_re2.h",
+        "path_type": "hardlink",
+        "sha256": "ffd01873f4e412adc1d638088f545f11a0a954d96e773ebfe5fb1fc49db29491",
+        "sha256_in_prefix": "ffd01873f4e412adc1d638088f545f11a0a954d96e773ebfe5fb1fc49db29491",
+        "size_in_bytes": 4247
+      },
+      {
+        "_path": "Library/include/re2/re2.h",
+        "path_type": "hardlink",
+        "sha256": "686ed0ad1df0c81ec8b821dc5db5b8863efc3581afe3fd24ab76478e1ad78f6e",
+        "sha256_in_prefix": "686ed0ad1df0c81ec8b821dc5db5b8863efc3581afe3fd24ab76478e1ad78f6e",
+        "size_in_bytes": 39768
+      },
+      {
+        "_path": "Library/include/re2/set.h",
+        "path_type": "hardlink",
+        "sha256": "7439551c49fb2c6d97f4779c988404aceaee0cac3a1f10f32af54d59a8360767",
+        "sha256_in_prefix": "7439551c49fb2c6d97f4779c988404aceaee0cac3a1f10f32af54d59a8360767",
+        "size_in_bytes": 2483
+      },
+      {
+        "_path": "Library/include/re2/stringpiece.h",
+        "path_type": "hardlink",
+        "sha256": "4e40fb96813f7e0fb0b0ce790d66f0c60b275a2fe79c51d3dc37475aaa7539b0",
+        "sha256_in_prefix": "4e40fb96813f7e0fb0b0ce790d66f0c60b275a2fe79c51d3dc37475aaa7539b0",
+        "size_in_bytes": 6419
+      },
+      {
+        "_path": "Library/lib/cmake/re2/re2Config.cmake",
+        "path_type": "hardlink",
+        "sha256": "4cbcaa35f6f9c25efcc18ed80335705a415f8117934cfc7370881fd2713e5732",
+        "sha256_in_prefix": "4cbcaa35f6f9c25efcc18ed80335705a415f8117934cfc7370881fd2713e5732",
+        "size_in_bytes": 1395
+      },
+      {
+        "_path": "Library/lib/cmake/re2/re2ConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "8078f7fe86e37d7b1183d70e6756fdd938a5c614adf42d9de68692f957fb3fb7",
+        "sha256_in_prefix": "8078f7fe86e37d7b1183d70e6756fdd938a5c614adf42d9de68692f957fb3fb7",
+        "size_in_bytes": 2948
+      },
+      {
+        "_path": "Library/lib/cmake/re2/re2Targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "248e18653fdbdbb9a5a958235a526eed2d4583b2cfaa3610d2d836e8c2bebcc8",
+        "sha256_in_prefix": "248e18653fdbdbb9a5a958235a526eed2d4583b2cfaa3610d2d836e8c2bebcc8",
+        "size_in_bytes": 852
+      },
+      {
+        "_path": "Library/lib/cmake/re2/re2Targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "7a01ea36eb1f9a27f2df333e9a7406eb2c1d8ade071d0287b949983484bcad5e",
+        "sha256_in_prefix": "7a01ea36eb1f9a27f2df333e9a7406eb2c1d8ade071d0287b949983484bcad5e",
+        "size_in_bytes": 3325
+      },
+      {
+        "_path": "Library/lib/re2.lib",
+        "path_type": "hardlink",
+        "sha256": "d7f38c16be5988544c5209176509115b40cc9b653d51cf73393c72809f4c67d4",
+        "sha256_in_prefix": "d7f38c16be5988544c5209176509115b40cc9b653d51cf73393c72809f4c67d4",
+        "size_in_bytes": 4139076
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "367717268b970471cd38cc0435fcede36b1cc74343e3245c48d05239f6b94479",
+  "size": 382871,
+  "subdir": "win-64",
+  "timestamp": 1652432364793,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64/re2-2022.04.01-hd77b12b_0.conda",
+  "version": "2022.04.01"
+}

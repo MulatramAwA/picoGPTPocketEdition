@@ -1,0 +1,135 @@
+{
+  "build": "py39haa95532_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "D:\\Anaconda\\pkgs\\termcolor-2.1.0-py39haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/termcolor-2.1.0.dist-info/INSTALLER",
+    "Lib/site-packages/termcolor-2.1.0.dist-info/METADATA",
+    "Lib/site-packages/termcolor-2.1.0.dist-info/RECORD",
+    "Lib/site-packages/termcolor-2.1.0.dist-info/REQUESTED",
+    "Lib/site-packages/termcolor-2.1.0.dist-info/WHEEL",
+    "Lib/site-packages/termcolor-2.1.0.dist-info/direct_url.json",
+    "Lib/site-packages/termcolor-2.1.0.dist-info/licenses/COPYING.txt",
+    "Lib/site-packages/termcolor/__init__.py",
+    "Lib/site-packages/termcolor/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/termcolor/__pycache__/termcolor.cpython-39.pyc",
+    "Lib/site-packages/termcolor/py.typed",
+    "Lib/site-packages/termcolor/termcolor.py",
+    ".nonadmin"
+  ],
+  "fn": "termcolor-2.1.0-py39haa95532_0.conda",
+  "legacy_bz2_md5": "5d45d4f6596c29bdbfa6aa431a8998ee",
+  "legacy_bz2_size": 11721,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "D:\\Anaconda\\pkgs\\termcolor-2.1.0-py39haa95532_0",
+    "type": 1
+  },
+  "md5": "9bdbafb581f5db043615e033582d302b",
+  "name": "termcolor",
+  "package_tarball_full_path": "D:\\Anaconda\\pkgs\\termcolor-2.1.0-py39haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fa1d9138dfe0cbe0090363a14871b0339bf3abf1d57c30b8017166f172ba49b5",
+        "sha256_in_prefix": "fa1d9138dfe0cbe0090363a14871b0339bf3abf1d57c30b8017166f172ba49b5",
+        "size_in_bytes": 4227
+      },
+      {
+        "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8e395a15b6127c53a0f4bd6c096984aa5eb258a51fea916afd6264291441baee",
+        "sha256_in_prefix": "8e395a15b6127c53a0f4bd6c096984aa5eb258a51fea916afd6264291441baee",
+        "size_in_bytes": 926
+      },
+      {
+        "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "dc34a64b2604d520c444edbeac8dea51b315a2f06cefefa081cee6b9b39e9ac7",
+        "sha256_in_prefix": "dc34a64b2604d520c444edbeac8dea51b315a2f06cefefa081cee6b9b39e9ac7",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "59704b441444823014fbc9a99f1f21d76966a673c1beea8ae96007aaa10fc1b2",
+        "sha256_in_prefix": "59704b441444823014fbc9a99f1f21d76966a673c1beea8ae96007aaa10fc1b2",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/licenses/COPYING.txt",
+        "path_type": "hardlink",
+        "sha256": "e79b6bd82962c1330caaa7c42278567b08667777673f8e2371a624d5715d4c0e",
+        "sha256_in_prefix": "e79b6bd82962c1330caaa7c42278567b08667777673f8e2371a624d5715d4c0e",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "Lib/site-packages/termcolor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0469c24bbbb47926f3660fffa8922b552729218265f088a3684203ec9a5cb7b3",
+        "sha256_in_prefix": "0469c24bbbb47926f3660fffa8922b552729218265f088a3684203ec9a5cb7b3",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "Lib/site-packages/termcolor/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e9b152e5d7c55077c7e5d9f340992cab89c618b165b2de6ea59039580119331",
+        "sha256_in_prefix": "3e9b152e5d7c55077c7e5d9f340992cab89c618b165b2de6ea59039580119331",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "Lib/site-packages/termcolor/__pycache__/termcolor.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc7e78626c9cf86f775ae829edab6d41945cdc8c7c716d3c673be32edfdc1c86",
+        "sha256_in_prefix": "dc7e78626c9cf86f775ae829edab6d41945cdc8c7c716d3c673be32edfdc1c86",
+        "size_in_bytes": 4096
+      },
+      {
+        "_path": "Lib/site-packages/termcolor/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/termcolor/termcolor.py",
+        "path_type": "hardlink",
+        "sha256": "00e264412c722785f52111711d5a8a63b49205d13c1e5ba2259bdeab1670b8ec",
+        "sha256_in_prefix": "00e264412c722785f52111711d5a8a63b49205d13c1e5ba2259bdeab1670b8ec",
+        "size_in_bytes": 6101
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5da8534471dd3e450be2d55e24db2d477140f1774cf19c7fe8f3133cd169e778",
+  "size": 12249,
+  "subdir": "win-64",
+  "timestamp": 1668084713060,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64/termcolor-2.1.0-py39haa95532_0.conda",
+  "version": "2.1.0"
+}

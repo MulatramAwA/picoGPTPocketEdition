@@ -1,0 +1,1310 @@
+{
+  "build": "h51c971a_3",
+  "build_number": 3,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "icc_rt >=2022.1.0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "extracted_package_dir": "D:\\Anaconda\\pkgs\\hdf5-1.12.1-h51c971a_3",
+  "features": "",
+  "files": [
+    "Library/COPYING",
+    "Library/RELEASE.txt",
+    "Library/USING_HDF5_CMake.txt",
+    "Library/USING_HDF5_VS.txt",
+    "Library/bin/gif2h5-shared.exe",
+    "Library/bin/gif2h5.exe",
+    "Library/bin/h52gif-shared.exe",
+    "Library/bin/h52gif.exe",
+    "Library/bin/h5clear-shared.exe",
+    "Library/bin/h5clear.exe",
+    "Library/bin/h5copy-shared.exe",
+    "Library/bin/h5copy.exe",
+    "Library/bin/h5debug-shared.exe",
+    "Library/bin/h5debug.exe",
+    "Library/bin/h5diff-shared.exe",
+    "Library/bin/h5diff.exe",
+    "Library/bin/h5dump-shared.exe",
+    "Library/bin/h5dump.exe",
+    "Library/bin/h5format_convert-shared.exe",
+    "Library/bin/h5format_convert.exe",
+    "Library/bin/h5import-shared.exe",
+    "Library/bin/h5import.exe",
+    "Library/bin/h5jam-shared.exe",
+    "Library/bin/h5jam.exe",
+    "Library/bin/h5ls-shared.exe",
+    "Library/bin/h5ls.exe",
+    "Library/bin/h5mkgrp-shared.exe",
+    "Library/bin/h5mkgrp.exe",
+    "Library/bin/h5repack-shared.exe",
+    "Library/bin/h5repack.exe",
+    "Library/bin/h5repart-shared.exe",
+    "Library/bin/h5repart.exe",
+    "Library/bin/h5stat-shared.exe",
+    "Library/bin/h5stat.exe",
+    "Library/bin/h5unjam-shared.exe",
+    "Library/bin/h5unjam.exe",
+    "Library/bin/h5watch-shared.exe",
+    "Library/bin/h5watch.exe",
+    "Library/bin/hdf5.dll",
+    "Library/bin/hdf5_cpp.dll",
+    "Library/bin/hdf5_hl.dll",
+    "Library/bin/hdf5_hl_cpp.dll",
+    "Library/bin/hdf5_tools.dll",
+    "Library/bin/mirror_server.exe",
+    "Library/bin/mirror_server_stop.exe",
+    "Library/include/H5ACpublic.h",
+    "Library/include/H5AbstractDs.h",
+    "Library/include/H5Alltypes.h",
+    "Library/include/H5Apublic.h",
+    "Library/include/H5ArrayType.h",
+    "Library/include/H5AtomType.h",
+    "Library/include/H5Attribute.h",
+    "Library/include/H5Classes.h",
+    "Library/include/H5CommonFG.h",
+    "Library/include/H5CompType.h",
+    "Library/include/H5Cpp.h",
+    "Library/include/H5CppDoc.h",
+    "Library/include/H5Cpublic.h",
+    "Library/include/H5DOpublic.h",
+    "Library/include/H5DSpublic.h",
+    "Library/include/H5DaccProp.h",
+    "Library/include/H5DataSet.h",
+    "Library/include/H5DataSpace.h",
+    "Library/include/H5DataType.h",
+    "Library/include/H5DcreatProp.h",
+    "Library/include/H5Dpublic.h",
+    "Library/include/H5DxferProp.h",
+    "Library/include/H5ESpublic.h",
+    "Library/include/H5EnumType.h",
+    "Library/include/H5Epubgen.h",
+    "Library/include/H5Epublic.h",
+    "Library/include/H5Exception.h",
+    "Library/include/H5FDcore.h",
+    "Library/include/H5FDdirect.h",
+    "Library/include/H5FDfamily.h",
+    "Library/include/H5FDhdfs.h",
+    "Library/include/H5FDlog.h",
+    "Library/include/H5FDmirror.h",
+    "Library/include/H5FDmpi.h",
+    "Library/include/H5FDmpio.h",
+    "Library/include/H5FDmulti.h",
+    "Library/include/H5FDpublic.h",
+    "Library/include/H5FDros3.h",
+    "Library/include/H5FDs3comms.h",
+    "Library/include/H5FDsec2.h",
+    "Library/include/H5FDsplitter.h",
+    "Library/include/H5FDstdio.h",
+    "Library/include/H5FDwindows.h",
+    "Library/include/H5FaccProp.h",
+    "Library/include/H5FcreatProp.h",
+    "Library/include/H5File.h",
+    "Library/include/H5FloatType.h",
+    "Library/include/H5Fpublic.h",
+    "Library/include/H5Gpublic.h",
+    "Library/include/H5Group.h",
+    "Library/include/H5IMpublic.h",
+    "Library/include/H5IdComponent.h",
+    "Library/include/H5Include.h",
+    "Library/include/H5IntType.h",
+    "Library/include/H5Ipublic.h",
+    "Library/include/H5LDpublic.h",
+    "Library/include/H5LTpublic.h",
+    "Library/include/H5LaccProp.h",
+    "Library/include/H5LcreatProp.h",
+    "Library/include/H5Library.h",
+    "Library/include/H5Location.h",
+    "Library/include/H5Lpublic.h",
+    "Library/include/H5MMpublic.h",
+    "Library/include/H5Mpublic.h",
+    "Library/include/H5Object.h",
+    "Library/include/H5OcreatProp.h",
+    "Library/include/H5Opublic.h",
+    "Library/include/H5PLextern.h",
+    "Library/include/H5PLpublic.h",
+    "Library/include/H5PTpublic.h",
+    "Library/include/H5PacketTable.h",
+    "Library/include/H5Ppublic.h",
+    "Library/include/H5PredType.h",
+    "Library/include/H5PropList.h",
+    "Library/include/H5Rpublic.h",
+    "Library/include/H5Spublic.h",
+    "Library/include/H5StrType.h",
+    "Library/include/H5TBpublic.h",
+    "Library/include/H5Tpublic.h",
+    "Library/include/H5VLconnector.h",
+    "Library/include/H5VLconnector_passthru.h",
+    "Library/include/H5VLnative.h",
+    "Library/include/H5VLpassthru.h",
+    "Library/include/H5VLpublic.h",
+    "Library/include/H5VarLenType.h",
+    "Library/include/H5Zpublic.h",
+    "Library/include/H5api_adpt.h",
+    "Library/include/H5overflow.h",
+    "Library/include/H5pubconf.h",
+    "Library/include/H5public.h",
+    "Library/include/H5version.h",
+    "Library/include/hdf5.h",
+    "Library/include/hdf5_hl.h",
+    "Library/lib/hdf5.lib",
+    "Library/lib/hdf5_cpp.lib",
+    "Library/lib/hdf5_hl.lib",
+    "Library/lib/hdf5_hl_cpp.lib",
+    "Library/lib/hdf5_tools.lib",
+    "Library/lib/libhdf5.lib",
+    "Library/lib/libhdf5.settings",
+    "Library/lib/libhdf5_cpp.lib",
+    "Library/lib/libhdf5_hl.lib",
+    "Library/lib/libhdf5_hl_cpp.lib",
+    "Library/lib/libhdf5_tools.lib",
+    "Library/lib/pkgconfig/hdf5.pc",
+    "Library/lib/pkgconfig/hdf5_cpp.pc",
+    "Library/lib/pkgconfig/hdf5_hl.pc",
+    "Library/lib/pkgconfig/hdf5_hl_cpp.pc",
+    "Library/share/cmake/hdf5/hdf5-config-version.cmake",
+    "Library/share/cmake/hdf5/hdf5-config.cmake",
+    "Library/share/cmake/hdf5/hdf5-targets-release.cmake",
+    "Library/share/cmake/hdf5/hdf5-targets.cmake",
+    ".nonadmin"
+  ],
+  "fn": "hdf5-1.12.1-h51c971a_3.conda",
+  "legacy_bz2_md5": "0689c2ff6f4b9c15ee072694a8cd7467",
+  "legacy_bz2_size": 23765096,
+  "license": "OTHER",
+  "license_family": "BSD",
+  "link": {
+    "source": "D:\\Anaconda\\pkgs\\hdf5-1.12.1-h51c971a_3",
+    "type": 1
+  },
+  "md5": "30d32d59e0272ff4b6394362fab2d4c5",
+  "name": "hdf5",
+  "package_tarball_full_path": "D:\\Anaconda\\pkgs\\hdf5-1.12.1-h51c971a_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/COPYING",
+        "path_type": "hardlink",
+        "sha256": "49875a6b3fd8a684f3d03d5418fcfa057efae9813194296d11f2828a24e4a6e0",
+        "sha256_in_prefix": "49875a6b3fd8a684f3d03d5418fcfa057efae9813194296d11f2828a24e4a6e0",
+        "size_in_bytes": 5505
+      },
+      {
+        "_path": "Library/RELEASE.txt",
+        "path_type": "hardlink",
+        "sha256": "95f82c63ba8f1412425bc7fdb05ff557e7dd8698b4cad7faee11cf70568ef427",
+        "sha256_in_prefix": "95f82c63ba8f1412425bc7fdb05ff557e7dd8698b4cad7faee11cf70568ef427",
+        "size_in_bytes": 51938
+      },
+      {
+        "_path": "Library/USING_HDF5_CMake.txt",
+        "path_type": "hardlink",
+        "sha256": "633d4959a9e32604028f2fb78ad2e81dc85f9649e4a70857aab9f700ec10dec0",
+        "sha256_in_prefix": "633d4959a9e32604028f2fb78ad2e81dc85f9649e4a70857aab9f700ec10dec0",
+        "size_in_bytes": 10310
+      },
+      {
+        "_path": "Library/USING_HDF5_VS.txt",
+        "path_type": "hardlink",
+        "sha256": "2a0a79800aa20a4859da27f92986fa33479b7a590bb3cbbbaa620bec5ddac10c",
+        "sha256_in_prefix": "2a0a79800aa20a4859da27f92986fa33479b7a590bb3cbbbaa620bec5ddac10c",
+        "size_in_bytes": 3853
+      },
+      {
+        "_path": "Library/bin/gif2h5-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "ead02034bc223a2985bdb310589053ba219fa2aeb75a19cf8f85de080b126fbb",
+        "sha256_in_prefix": "ead02034bc223a2985bdb310589053ba219fa2aeb75a19cf8f85de080b126fbb",
+        "size_in_bytes": 20480
+      },
+      {
+        "_path": "Library/bin/gif2h5.exe",
+        "path_type": "hardlink",
+        "sha256": "a4e2867f18e773df09aad907d1dbf641eac3a2d663a5cfe9a67a88d64d77ed02",
+        "sha256_in_prefix": "a4e2867f18e773df09aad907d1dbf641eac3a2d663a5cfe9a67a88d64d77ed02",
+        "size_in_bytes": 2763776
+      },
+      {
+        "_path": "Library/bin/h52gif-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "0b4819fb2e870e61c0055df33b9e9a59990334c363ee738e820daf7771853501",
+        "sha256_in_prefix": "0b4819fb2e870e61c0055df33b9e9a59990334c363ee738e820daf7771853501",
+        "size_in_bytes": 16896
+      },
+      {
+        "_path": "Library/bin/h52gif.exe",
+        "path_type": "hardlink",
+        "sha256": "7d9f90537cae77fce129aba0dab48065d427b133bfd20a23d8291758948324e6",
+        "sha256_in_prefix": "7d9f90537cae77fce129aba0dab48065d427b133bfd20a23d8291758948324e6",
+        "size_in_bytes": 2750976
+      },
+      {
+        "_path": "Library/bin/h5clear-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "bb7b35162e56e45f29dec2cd8a8ba10d04eb293da40eb29679e61aca638d92dd",
+        "sha256_in_prefix": "bb7b35162e56e45f29dec2cd8a8ba10d04eb293da40eb29679e61aca638d92dd",
+        "size_in_bytes": 16896
+      },
+      {
+        "_path": "Library/bin/h5clear.exe",
+        "path_type": "hardlink",
+        "sha256": "b6808ff4c9e7c857e3a63b1a9e8d9e212150417bad91142855aec93a19edaceb",
+        "sha256_in_prefix": "b6808ff4c9e7c857e3a63b1a9e8d9e212150417bad91142855aec93a19edaceb",
+        "size_in_bytes": 2749440
+      },
+      {
+        "_path": "Library/bin/h5copy-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "0665abfb3f0c6f96211a44c4504a18ddd258a31a3525fcda65e0f00e9827551e",
+        "sha256_in_prefix": "0665abfb3f0c6f96211a44c4504a18ddd258a31a3525fcda65e0f00e9827551e",
+        "size_in_bytes": 19968
+      },
+      {
+        "_path": "Library/bin/h5copy.exe",
+        "path_type": "hardlink",
+        "sha256": "6d5c47cf5f7480929f714114b31c0b9c0ab2e06be5511b934393b74bc0b4b90f",
+        "sha256_in_prefix": "6d5c47cf5f7480929f714114b31c0b9c0ab2e06be5511b934393b74bc0b4b90f",
+        "size_in_bytes": 2764800
+      },
+      {
+        "_path": "Library/bin/h5debug-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "0a0baa69cecc2be41776a4a9e2b81e086fa2189d0d5be0ad28d03438e969ae6c",
+        "sha256_in_prefix": "0a0baa69cecc2be41776a4a9e2b81e086fa2189d0d5be0ad28d03438e969ae6c",
+        "size_in_bytes": 24064
+      },
+      {
+        "_path": "Library/bin/h5debug.exe",
+        "path_type": "hardlink",
+        "sha256": "0076a27a6cc6acb431065230389b6940b443bba536db81ad2a401ad561e57244",
+        "sha256_in_prefix": "0076a27a6cc6acb431065230389b6940b443bba536db81ad2a401ad561e57244",
+        "size_in_bytes": 2711040
+      },
+      {
+        "_path": "Library/bin/h5diff-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "acada06892103d5612073a876572986865d1cfe1f518998e3deba1af5c32c7a7",
+        "sha256_in_prefix": "acada06892103d5612073a876572986865d1cfe1f518998e3deba1af5c32c7a7",
+        "size_in_bytes": 31744
+      },
+      {
+        "_path": "Library/bin/h5diff.exe",
+        "path_type": "hardlink",
+        "sha256": "4272645faa096956372d3f3858513805c422e8ecf3a748599f47bf2b8945912b",
+        "sha256_in_prefix": "4272645faa096956372d3f3858513805c422e8ecf3a748599f47bf2b8945912b",
+        "size_in_bytes": 2926080
+      },
+      {
+        "_path": "Library/bin/h5dump-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "dd926194fa6ec426cf58105e0c4f7ee541ec14d3145b0ad51661763545cab3b0",
+        "sha256_in_prefix": "dd926194fa6ec426cf58105e0c4f7ee541ec14d3145b0ad51661763545cab3b0",
+        "size_in_bytes": 116224
+      },
+      {
+        "_path": "Library/bin/h5dump.exe",
+        "path_type": "hardlink",
+        "sha256": "f8d94bf32d08f6399ee11da1d03b9b986603ab869f02d8b62f7039a5cd5d50f2",
+        "sha256_in_prefix": "f8d94bf32d08f6399ee11da1d03b9b986603ab869f02d8b62f7039a5cd5d50f2",
+        "size_in_bytes": 3044352
+      },
+      {
+        "_path": "Library/bin/h5format_convert-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "aba9ae529ee26ea550de7be2dee59f3c4fb9e3632edd2f1c38174d134b087c23",
+        "sha256_in_prefix": "aba9ae529ee26ea550de7be2dee59f3c4fb9e3632edd2f1c38174d134b087c23",
+        "size_in_bytes": 16384
+      },
+      {
+        "_path": "Library/bin/h5format_convert.exe",
+        "path_type": "hardlink",
+        "sha256": "78d4cdc7449632807e160e788eecb630eafd56f4a145d253d9a458fd61142510",
+        "sha256_in_prefix": "78d4cdc7449632807e160e788eecb630eafd56f4a145d253d9a458fd61142510",
+        "size_in_bytes": 2761216
+      },
+      {
+        "_path": "Library/bin/h5import-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "af84c8f46d861ad89e9b276d255991622c2fa6724f15ed0da94353c86e5dfd72",
+        "sha256_in_prefix": "af84c8f46d861ad89e9b276d255991622c2fa6724f15ed0da94353c86e5dfd72",
+        "size_in_bytes": 69120
+      },
+      {
+        "_path": "Library/bin/h5import.exe",
+        "path_type": "hardlink",
+        "sha256": "e0fe2ba532d016bbf5ed4f35bb3c7b70de9d82d1fcc21fd9b964ad74aed27b44",
+        "sha256_in_prefix": "e0fe2ba532d016bbf5ed4f35bb3c7b70de9d82d1fcc21fd9b964ad74aed27b44",
+        "size_in_bytes": 2800128
+      },
+      {
+        "_path": "Library/bin/h5jam-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "71e5112a39e273b3c16d814ddbcc9467218598c44975cdaee067cf9c6927d153",
+        "sha256_in_prefix": "71e5112a39e273b3c16d814ddbcc9467218598c44975cdaee067cf9c6927d153",
+        "size_in_bytes": 16384
+      },
+      {
+        "_path": "Library/bin/h5jam.exe",
+        "path_type": "hardlink",
+        "sha256": "f6608bdd2c1f17570986b21a78591bab98571a5a6f66109e397fbd5fe5a768a1",
+        "sha256_in_prefix": "f6608bdd2c1f17570986b21a78591bab98571a5a6f66109e397fbd5fe5a768a1",
+        "size_in_bytes": 2729984
+      },
+      {
+        "_path": "Library/bin/h5ls-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "896bb16eb544381bfe760783c37de5c93f73c20475273827d57fba4deccde1ac",
+        "sha256_in_prefix": "896bb16eb544381bfe760783c37de5c93f73c20475273827d57fba4deccde1ac",
+        "size_in_bytes": 58368
+      },
+      {
+        "_path": "Library/bin/h5ls.exe",
+        "path_type": "hardlink",
+        "sha256": "b733478f3c3be43f361e96cbe07e0b81554912172736de149efbb48208b11776",
+        "sha256_in_prefix": "b733478f3c3be43f361e96cbe07e0b81554912172736de149efbb48208b11776",
+        "size_in_bytes": 2957824
+      },
+      {
+        "_path": "Library/bin/h5mkgrp-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "3258ea96f75d193408b4c826a1081f32e4a3c64447abfb29909fea6856cb4de9",
+        "sha256_in_prefix": "3258ea96f75d193408b4c826a1081f32e4a3c64447abfb29909fea6856cb4de9",
+        "size_in_bytes": 15360
+      },
+      {
+        "_path": "Library/bin/h5mkgrp.exe",
+        "path_type": "hardlink",
+        "sha256": "110b71be7b1ac4594138f10c1bc2b60cd6a1b315ba8d9a4fd9a0c030219ecbf8",
+        "sha256_in_prefix": "110b71be7b1ac4594138f10c1bc2b60cd6a1b315ba8d9a4fd9a0c030219ecbf8",
+        "size_in_bytes": 2752512
+      },
+      {
+        "_path": "Library/bin/h5repack-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "02d55ddb8420e6f6cf2a6eb45e4c20de9ea77c657c1e97404e014eadecfa820c",
+        "sha256_in_prefix": "02d55ddb8420e6f6cf2a6eb45e4c20de9ea77c657c1e97404e014eadecfa820c",
+        "size_in_bytes": 125440
+      },
+      {
+        "_path": "Library/bin/h5repack.exe",
+        "path_type": "hardlink",
+        "sha256": "9486b613d4b9ba36a36c73be82227864852d28b12776e765a9e62ef93ebde866",
+        "sha256_in_prefix": "9486b613d4b9ba36a36c73be82227864852d28b12776e765a9e62ef93ebde866",
+        "size_in_bytes": 2954752
+      },
+      {
+        "_path": "Library/bin/h5repart-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "b911885cfcbabdd771ac6286842b1bbbe73b548d374ea31f7ca0ba3aabac990a",
+        "sha256_in_prefix": "b911885cfcbabdd771ac6286842b1bbbe73b548d374ea31f7ca0ba3aabac990a",
+        "size_in_bytes": 15872
+      },
+      {
+        "_path": "Library/bin/h5repart.exe",
+        "path_type": "hardlink",
+        "sha256": "e7082689e292dc6ea37673e99bcdb13f64ad708a993b376b4e01c84991afa696",
+        "sha256_in_prefix": "e7082689e292dc6ea37673e99bcdb13f64ad708a993b376b4e01c84991afa696",
+        "size_in_bytes": 2649600
+      },
+      {
+        "_path": "Library/bin/h5stat-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "edfe0b518e29da9993662b1ff9d1495aeefdf3f0d3b3fb283ed14b64bdf5f92e",
+        "sha256_in_prefix": "edfe0b518e29da9993662b1ff9d1495aeefdf3f0d3b3fb283ed14b64bdf5f92e",
+        "size_in_bytes": 37888
+      },
+      {
+        "_path": "Library/bin/h5stat.exe",
+        "path_type": "hardlink",
+        "sha256": "8f9fee42067e7f488e8f70cc7305db442d00c6454f4fd0879c9f74b69d0d1ba3",
+        "sha256_in_prefix": "8f9fee42067e7f488e8f70cc7305db442d00c6454f4fd0879c9f74b69d0d1ba3",
+        "size_in_bytes": 2792448
+      },
+      {
+        "_path": "Library/bin/h5unjam-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "35f28d1730cb1515ecfbf5706e69f6bba8ed30b7681c75c72efd25b607c61e70",
+        "sha256_in_prefix": "35f28d1730cb1515ecfbf5706e69f6bba8ed30b7681c75c72efd25b607c61e70",
+        "size_in_bytes": 16384
+      },
+      {
+        "_path": "Library/bin/h5unjam.exe",
+        "path_type": "hardlink",
+        "sha256": "a2dc9503be8b860c9da4d38866d72d2a60a2165ac935d355e4a18fad1fc8b8cb",
+        "sha256_in_prefix": "a2dc9503be8b860c9da4d38866d72d2a60a2165ac935d355e4a18fad1fc8b8cb",
+        "size_in_bytes": 2729472
+      },
+      {
+        "_path": "Library/bin/h5watch-shared.exe",
+        "path_type": "hardlink",
+        "sha256": "9426fb5e93cde6f1288b5d671c4710100fe83afa66d139cf5011562f12492357",
+        "sha256_in_prefix": "9426fb5e93cde6f1288b5d671c4710100fe83afa66d139cf5011562f12492357",
+        "size_in_bytes": 24064
+      },
+      {
+        "_path": "Library/bin/h5watch.exe",
+        "path_type": "hardlink",
+        "sha256": "52d6743841c3ccc2df56c7520ed60ab1f34decdca3d443dd7dbba4eaa13ec46d",
+        "sha256_in_prefix": "52d6743841c3ccc2df56c7520ed60ab1f34decdca3d443dd7dbba4eaa13ec46d",
+        "size_in_bytes": 2845184
+      },
+      {
+        "_path": "Library/bin/hdf5.dll",
+        "path_type": "hardlink",
+        "sha256": "a94f5c9ddc0db89b1e810ef7899bdfcabf3398ce349fd7237335ee7caeac85f0",
+        "sha256_in_prefix": "a94f5c9ddc0db89b1e810ef7899bdfcabf3398ce349fd7237335ee7caeac85f0",
+        "size_in_bytes": 3514880
+      },
+      {
+        "_path": "Library/bin/hdf5_cpp.dll",
+        "path_type": "hardlink",
+        "sha256": "a1faa21351a44de34b596729d54e49b80702274eafb3f390e19cd6fefe3b8bbe",
+        "sha256_in_prefix": "a1faa21351a44de34b596729d54e49b80702274eafb3f390e19cd6fefe3b8bbe",
+        "size_in_bytes": 292352
+      },
+      {
+        "_path": "Library/bin/hdf5_hl.dll",
+        "path_type": "hardlink",
+        "sha256": "d15bbdbfe52340eac5ce607bd76853e2afa3ade40870a98054802bf437d6a05f",
+        "sha256_in_prefix": "d15bbdbfe52340eac5ce607bd76853e2afa3ade40870a98054802bf437d6a05f",
+        "size_in_bytes": 112128
+      },
+      {
+        "_path": "Library/bin/hdf5_hl_cpp.dll",
+        "path_type": "hardlink",
+        "sha256": "d92b803c701768df297a20c68da85fc2016740f1451369930c5295ad200b58a1",
+        "sha256_in_prefix": "d92b803c701768df297a20c68da85fc2016740f1451369930c5295ad200b58a1",
+        "size_in_bytes": 14336
+      },
+      {
+        "_path": "Library/bin/hdf5_tools.dll",
+        "path_type": "hardlink",
+        "sha256": "596f5b6da4a8142d6db84f0129b7e124b77735385146cc7419e2015ea2f44616",
+        "sha256_in_prefix": "596f5b6da4a8142d6db84f0129b7e124b77735385146cc7419e2015ea2f44616",
+        "size_in_bytes": 231936
+      },
+      {
+        "_path": "Library/bin/mirror_server.exe",
+        "path_type": "hardlink",
+        "sha256": "a6be758ca4c33e0f117bf4a26e57cb4fee8fd209d2d27e7dee46f4c6e24d15a0",
+        "sha256_in_prefix": "a6be758ca4c33e0f117bf4a26e57cb4fee8fd209d2d27e7dee46f4c6e24d15a0",
+        "size_in_bytes": 9728
+      },
+      {
+        "_path": "Library/bin/mirror_server_stop.exe",
+        "path_type": "hardlink",
+        "sha256": "bae0cf1c97a8fe578fb468febc47c4ce224e11413ea348e561b8e82118f9deb2",
+        "sha256_in_prefix": "bae0cf1c97a8fe578fb468febc47c4ce224e11413ea348e561b8e82118f9deb2",
+        "size_in_bytes": 9728
+      },
+      {
+        "_path": "Library/include/H5ACpublic.h",
+        "path_type": "hardlink",
+        "sha256": "f789b0c459717b1e2b8aa40ed54630e9b907bf1a3e02131bfd2045e2420f3571",
+        "sha256_in_prefix": "f789b0c459717b1e2b8aa40ed54630e9b907bf1a3e02131bfd2045e2420f3571",
+        "size_in_bytes": 38281
+      },
+      {
+        "_path": "Library/include/H5AbstractDs.h",
+        "path_type": "hardlink",
+        "sha256": "506a7512863ebfbb333d5a414f8b98384e83473d984e42127e1fa21dbd368775",
+        "sha256_in_prefix": "506a7512863ebfbb333d5a414f8b98384e83473d984e42127e1fa21dbd368775",
+        "size_in_bytes": 3042
+      },
+      {
+        "_path": "Library/include/H5Alltypes.h",
+        "path_type": "hardlink",
+        "sha256": "6c49e5efddb10e82fa18f1b5e538f8ff2e84d83e6d1779939e3b352d7f147382",
+        "sha256_in_prefix": "6c49e5efddb10e82fa18f1b5e538f8ff2e84d83e6d1779939e3b352d7f147382",
+        "size_in_bytes": 1379
+      },
+      {
+        "_path": "Library/include/H5Apublic.h",
+        "path_type": "hardlink",
+        "sha256": "78c99572867359abb8a16ffd390c5c10fd0fd344c79bb9cad018fb44513dd966",
+        "sha256_in_prefix": "78c99572867359abb8a16ffd390c5c10fd0fd344c79bb9cad018fb44513dd966",
+        "size_in_bytes": 46970
+      },
+      {
+        "_path": "Library/include/H5ArrayType.h",
+        "path_type": "hardlink",
+        "sha256": "270cce59efc2a42f1a4642c4a0e4baf4b957fc91ebd3de82107f5997a5447306",
+        "sha256_in_prefix": "270cce59efc2a42f1a4642c4a0e4baf4b957fc91ebd3de82107f5997a5447306",
+        "size_in_bytes": 2714
+      },
+      {
+        "_path": "Library/include/H5AtomType.h",
+        "path_type": "hardlink",
+        "sha256": "201f2e2a70e7bc486e2effa4abd3d8e1edc72dd69b99623dbdee2073c5e80b53",
+        "sha256_in_prefix": "201f2e2a70e7bc486e2effa4abd3d8e1edc72dd69b99623dbdee2073c5e80b53",
+        "size_in_bytes": 3047
+      },
+      {
+        "_path": "Library/include/H5Attribute.h",
+        "path_type": "hardlink",
+        "sha256": "4fa72abdce5d1352d663e27845757924fba4725e25d33b5badcb5b7a62b2c66f",
+        "sha256_in_prefix": "4fa72abdce5d1352d663e27845757924fba4725e25d33b5badcb5b7a62b2c66f",
+        "size_in_bytes": 4106
+      },
+      {
+        "_path": "Library/include/H5Classes.h",
+        "path_type": "hardlink",
+        "sha256": "c3770df6fa190443abc7a66c4db80ca456ce92c95f386c7aab4657c1b6f63dbe",
+        "sha256_in_prefix": "c3770df6fa190443abc7a66c4db80ca456ce92c95f386c7aab4657c1b6f63dbe",
+        "size_in_bytes": 1572
+      },
+      {
+        "_path": "Library/include/H5CommonFG.h",
+        "path_type": "hardlink",
+        "sha256": "135e151d71fa60813547e7ec20ad92d56a6099d17fe74ca4a19566104ebbc115",
+        "sha256_in_prefix": "135e151d71fa60813547e7ec20ad92d56a6099d17fe74ca4a19566104ebbc115",
+        "size_in_bytes": 3621
+      },
+      {
+        "_path": "Library/include/H5CompType.h",
+        "path_type": "hardlink",
+        "sha256": "d6a849a8a20f108806bff48cc61bbce68fdd48d75c509c040b03fab79721b90e",
+        "sha256_in_prefix": "d6a849a8a20f108806bff48cc61bbce68fdd48d75c509c040b03fab79721b90e",
+        "size_in_bytes": 4846
+      },
+      {
+        "_path": "Library/include/H5Cpp.h",
+        "path_type": "hardlink",
+        "sha256": "15a04572f245b9ec668db77289e5a936dc3323874b27f71af60663b261bc920c",
+        "sha256_in_prefix": "15a04572f245b9ec668db77289e5a936dc3323874b27f71af60663b261bc920c",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "Library/include/H5CppDoc.h",
+        "path_type": "hardlink",
+        "sha256": "7fc25111569682c5e6d602cb3e0637324dea9c5a84978ffe245e37b792502d9c",
+        "sha256_in_prefix": "7fc25111569682c5e6d602cb3e0637324dea9c5a84978ffe245e37b792502d9c",
+        "size_in_bytes": 3628
+      },
+      {
+        "_path": "Library/include/H5Cpublic.h",
+        "path_type": "hardlink",
+        "sha256": "e4212f5cf6470e6b08b11597619c009be95772f089648ba54740d531460954bb",
+        "sha256_in_prefix": "e4212f5cf6470e6b08b11597619c009be95772f089648ba54740d531460954bb",
+        "size_in_bytes": 2387
+      },
+      {
+        "_path": "Library/include/H5DOpublic.h",
+        "path_type": "hardlink",
+        "sha256": "634e856e0812e2db545c430ba4d3f0ae840b7d82c34c6a499a6d1a3f740c3a18",
+        "sha256_in_prefix": "634e856e0812e2db545c430ba4d3f0ae840b7d82c34c6a499a6d1a3f740c3a18",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "Library/include/H5DSpublic.h",
+        "path_type": "hardlink",
+        "sha256": "86a6c92b2f9359d029fe6ac0be091c4f6fb8120f7445fe5a91f2ee51f94a4344",
+        "sha256_in_prefix": "86a6c92b2f9359d029fe6ac0be091c4f6fb8120f7445fe5a91f2ee51f94a4344",
+        "size_in_bytes": 2149
+      },
+      {
+        "_path": "Library/include/H5DaccProp.h",
+        "path_type": "hardlink",
+        "sha256": "f4222e753a056b96a9223fbb9009de551489d193e74471da03b8d90f56e606d8",
+        "sha256_in_prefix": "f4222e753a056b96a9223fbb9009de551489d193e74471da03b8d90f56e606d8",
+        "size_in_bytes": 2702
+      },
+      {
+        "_path": "Library/include/H5DataSet.h",
+        "path_type": "hardlink",
+        "sha256": "173a06f3425da874becb94180464bc80c76c2f0c920473594ec9dfdf2a66ae36",
+        "sha256_in_prefix": "173a06f3425da874becb94180464bc80c76c2f0c920473594ec9dfdf2a66ae36",
+        "size_in_bytes": 7229
+      },
+      {
+        "_path": "Library/include/H5DataSpace.h",
+        "path_type": "hardlink",
+        "sha256": "fd95cd274a942c4412e09f2b9644042a16b7cfdb71d75845094a4a2b3cdb78f4",
+        "sha256_in_prefix": "fd95cd274a942c4412e09f2b9644042a16b7cfdb71d75845094a4a2b3cdb78f4",
+        "size_in_bytes": 5530
+      },
+      {
+        "_path": "Library/include/H5DataType.h",
+        "path_type": "hardlink",
+        "sha256": "4134a36e8ea7442de257db154d3853fee92ffebaa7a9195133c7dab0396e55fd",
+        "sha256_in_prefix": "4134a36e8ea7442de257db154d3853fee92ffebaa7a9195133c7dab0396e55fd",
+        "size_in_bytes": 7016
+      },
+      {
+        "_path": "Library/include/H5DcreatProp.h",
+        "path_type": "hardlink",
+        "sha256": "4ed1c13bc30cb190ef706518912a1bee1a82572f47f02d94b8705a0b1877c0dc",
+        "sha256_in_prefix": "4ed1c13bc30cb190ef706518912a1bee1a82572f47f02d94b8705a0b1877c0dc",
+        "size_in_bytes": 6287
+      },
+      {
+        "_path": "Library/include/H5Dpublic.h",
+        "path_type": "hardlink",
+        "sha256": "ee75bb7819ba7c6c01cecba3457bea93794fc9fc0d8e2c21295ec91ae4a85aca",
+        "sha256_in_prefix": "ee75bb7819ba7c6c01cecba3457bea93794fc9fc0d8e2c21295ec91ae4a85aca",
+        "size_in_bytes": 69273
+      },
+      {
+        "_path": "Library/include/H5DxferProp.h",
+        "path_type": "hardlink",
+        "sha256": "b291c7b7f402f5fdaf9a4fdf76058cf4b865c1ebbd97ac3b2bff370c0296ebd1",
+        "sha256_in_prefix": "b291c7b7f402f5fdaf9a4fdf76058cf4b865c1ebbd97ac3b2bff370c0296ebd1",
+        "size_in_bytes": 5210
+      },
+      {
+        "_path": "Library/include/H5ESpublic.h",
+        "path_type": "hardlink",
+        "sha256": "0013a8c4f154b421bef14182743f8727c6629383cff338ab044ceba278dcbf93",
+        "sha256_in_prefix": "0013a8c4f154b421bef14182743f8727c6629383cff338ab044ceba278dcbf93",
+        "size_in_bytes": 1909
+      },
+      {
+        "_path": "Library/include/H5EnumType.h",
+        "path_type": "hardlink",
+        "sha256": "fafc6066d40444cb03b2b8e09b7ecdcde4950f7c9f0b8e913c21f8244865bd4e",
+        "sha256_in_prefix": "fafc6066d40444cb03b2b8e09b7ecdcde4950f7c9f0b8e913c21f8244865bd4e",
+        "size_in_bytes": 3420
+      },
+      {
+        "_path": "Library/include/H5Epubgen.h",
+        "path_type": "hardlink",
+        "sha256": "49ead079a7127874e53ef844ef1e488ed3706e2ca0e0714ba94b0fa890466b0a",
+        "sha256_in_prefix": "49ead079a7127874e53ef844ef1e488ed3706e2ca0e0714ba94b0fa890466b0a",
+        "size_in_bytes": 22687
+      },
+      {
+        "_path": "Library/include/H5Epublic.h",
+        "path_type": "hardlink",
+        "sha256": "939ef0ee4ceaabb27c878c4c0c9fabcb65a54e1f5200703b836868daa22b88f2",
+        "sha256_in_prefix": "939ef0ee4ceaabb27c878c4c0c9fabcb65a54e1f5200703b836868daa22b88f2",
+        "size_in_bytes": 38946
+      },
+      {
+        "_path": "Library/include/H5Exception.h",
+        "path_type": "hardlink",
+        "sha256": "960ed890fbb2cc371f28fae6143d08c9cb97e599a4024570fd33b1642b7abc19",
+        "sha256_in_prefix": "960ed890fbb2cc371f28fae6143d08c9cb97e599a4024570fd33b1642b7abc19",
+        "size_in_bytes": 6530
+      },
+      {
+        "_path": "Library/include/H5FDcore.h",
+        "path_type": "hardlink",
+        "sha256": "2f290d070761b588b760a56e391182d49f5a574f370ad6ff0c5ad716c45a6020",
+        "sha256_in_prefix": "2f290d070761b588b760a56e391182d49f5a574f370ad6ff0c5ad716c45a6020",
+        "size_in_bytes": 3940
+      },
+      {
+        "_path": "Library/include/H5FDdirect.h",
+        "path_type": "hardlink",
+        "sha256": "907a0410727ddaf893288bfa2872f2af14b56671d8b749c021398e7f11e1627d",
+        "sha256_in_prefix": "907a0410727ddaf893288bfa2872f2af14b56671d8b749c021398e7f11e1627d",
+        "size_in_bytes": 4274
+      },
+      {
+        "_path": "Library/include/H5FDfamily.h",
+        "path_type": "hardlink",
+        "sha256": "896fe7bb51d67af79c9a32e27b565fe1681196aad27ca98c4005a0cd651629e5",
+        "sha256_in_prefix": "896fe7bb51d67af79c9a32e27b565fe1681196aad27ca98c4005a0cd651629e5",
+        "size_in_bytes": 3241
+      },
+      {
+        "_path": "Library/include/H5FDhdfs.h",
+        "path_type": "hardlink",
+        "sha256": "79dcc7d1fb6bb7494fd360a00de65b2851e7a24968e73d375786b5cac04adcc2",
+        "sha256_in_prefix": "79dcc7d1fb6bb7494fd360a00de65b2851e7a24968e73d375786b5cac04adcc2",
+        "size_in_bytes": 3927
+      },
+      {
+        "_path": "Library/include/H5FDlog.h",
+        "path_type": "hardlink",
+        "sha256": "fa210d4f4035ee6095097a6209f45cb145f00bc273568fb704f47e67516d00f6",
+        "sha256_in_prefix": "fa210d4f4035ee6095097a6209f45cb145f00bc273568fb704f47e67516d00f6",
+        "size_in_bytes": 14638
+      },
+      {
+        "_path": "Library/include/H5FDmirror.h",
+        "path_type": "hardlink",
+        "sha256": "8f7929ec374895d179a0cac8206dfc82e49108ccaea171c6f7e7ff25a558cbb5",
+        "sha256_in_prefix": "8f7929ec374895d179a0cac8206dfc82e49108ccaea171c6f7e7ff25a558cbb5",
+        "size_in_bytes": 2891
+      },
+      {
+        "_path": "Library/include/H5FDmpi.h",
+        "path_type": "hardlink",
+        "sha256": "39cf568e68a7592f094950bef962306e805b4ec02d073a576fd17e9c0952a46b",
+        "sha256_in_prefix": "39cf568e68a7592f094950bef962306e805b4ec02d073a576fd17e9c0952a46b",
+        "size_in_bytes": 2587
+      },
+      {
+        "_path": "Library/include/H5FDmpio.h",
+        "path_type": "hardlink",
+        "sha256": "7c2de4d5aa6fbf4165145a65bccde070bd76cbcc77eec515f64edc123d8d4981",
+        "sha256_in_prefix": "7c2de4d5aa6fbf4165145a65bccde070bd76cbcc77eec515f64edc123d8d4981",
+        "size_in_bytes": 10297
+      },
+      {
+        "_path": "Library/include/H5FDmulti.h",
+        "path_type": "hardlink",
+        "sha256": "4f9744486a74d2f6e469bc0f9da3e910fb021f44899ecd4eb54c6e1ba45665f7",
+        "sha256_in_prefix": "4f9744486a74d2f6e469bc0f9da3e910fb021f44899ecd4eb54c6e1ba45665f7",
+        "size_in_bytes": 10642
+      },
+      {
+        "_path": "Library/include/H5FDpublic.h",
+        "path_type": "hardlink",
+        "sha256": "b1354b9aab34771cbb8ae74a72aedcb92705c7df36a3d58e99d9a484711fff80",
+        "sha256_in_prefix": "b1354b9aab34771cbb8ae74a72aedcb92705c7df36a3d58e99d9a484711fff80",
+        "size_in_bytes": 22470
+      },
+      {
+        "_path": "Library/include/H5FDros3.h",
+        "path_type": "hardlink",
+        "sha256": "088c3cd8cb570f0e1dcfc8070e790c536372ed6596846208c169e67910131492",
+        "sha256_in_prefix": "088c3cd8cb570f0e1dcfc8070e790c536372ed6596846208c169e67910131492",
+        "size_in_bytes": 3413
+      },
+      {
+        "_path": "Library/include/H5FDs3comms.h",
+        "path_type": "hardlink",
+        "sha256": "436db1490c65fd6254fe23d3fa97208af4b8b6e28515d85806f6725fab968677",
+        "sha256_in_prefix": "436db1490c65fd6254fe23d3fa97208af4b8b6e28515d85806f6725fab968677",
+        "size_in_bytes": 18060
+      },
+      {
+        "_path": "Library/include/H5FDsec2.h",
+        "path_type": "hardlink",
+        "sha256": "6c177a5e4c2dfd83740713a06ac2ef3d88aff6fb17d246072bf83981423458f2",
+        "sha256_in_prefix": "6c177a5e4c2dfd83740713a06ac2ef3d88aff6fb17d246072bf83981423458f2",
+        "size_in_bytes": 1321
+      },
+      {
+        "_path": "Library/include/H5FDsplitter.h",
+        "path_type": "hardlink",
+        "sha256": "1ee490aeef93a1818d816fbc5a3f9d30e709384d17ebce10691c9d5f4c2eef21",
+        "sha256_in_prefix": "1ee490aeef93a1818d816fbc5a3f9d30e709384d17ebce10691c9d5f4c2eef21",
+        "size_in_bytes": 3991
+      },
+      {
+        "_path": "Library/include/H5FDstdio.h",
+        "path_type": "hardlink",
+        "sha256": "372a5d83843631da390b0090320f7e7a788c94d60209f7e45aeafbdbbc82f347",
+        "sha256_in_prefix": "372a5d83843631da390b0090320f7e7a788c94d60209f7e45aeafbdbbc82f347",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "Library/include/H5FDwindows.h",
+        "path_type": "hardlink",
+        "sha256": "c2e5d5521804a1c0e32a6bcb35a2c7f972777c56deb638ef8aae90113465f0a0",
+        "sha256_in_prefix": "c2e5d5521804a1c0e32a6bcb35a2c7f972777c56deb638ef8aae90113465f0a0",
+        "size_in_bytes": 2525
+      },
+      {
+        "_path": "Library/include/H5FaccProp.h",
+        "path_type": "hardlink",
+        "sha256": "4d18542d96bb42213cc7ecb3abe75a88136b03333641b4829ca78d518d573961",
+        "sha256_in_prefix": "4d18542d96bb42213cc7ecb3abe75a88136b03333641b4829ca78d518d573961",
+        "size_in_bytes": 6786
+      },
+      {
+        "_path": "Library/include/H5FcreatProp.h",
+        "path_type": "hardlink",
+        "sha256": "cb64aad64d7ca64aec855449ab561f172c041eeaa39c8359c946e949852d85e5",
+        "sha256_in_prefix": "cb64aad64d7ca64aec855449ab561f172c041eeaa39c8359c946e949852d85e5",
+        "size_in_bytes": 4395
+      },
+      {
+        "_path": "Library/include/H5File.h",
+        "path_type": "hardlink",
+        "sha256": "80865fa5e8a24ed1c1895d97cb8b18e2f286c10bb5f6bd20bb58a1dd69da27d8",
+        "sha256_in_prefix": "80865fa5e8a24ed1c1895d97cb8b18e2f286c10bb5f6bd20bb58a1dd69da27d8",
+        "size_in_bytes": 5419
+      },
+      {
+        "_path": "Library/include/H5FloatType.h",
+        "path_type": "hardlink",
+        "sha256": "5cd14644482af97728357c43e2d64fa3a5f453b2ec12c8a2f3fa6276c03c5c05",
+        "sha256_in_prefix": "5cd14644482af97728357c43e2d64fa3a5f453b2ec12c8a2f3fa6276c03c5c05",
+        "size_in_bytes": 3362
+      },
+      {
+        "_path": "Library/include/H5Fpublic.h",
+        "path_type": "hardlink",
+        "sha256": "b7b478d0a6eeec3450c7f7fcb8e2a08578ef86f2aeb24dc5da1fc56c37dcb0c0",
+        "sha256_in_prefix": "b7b478d0a6eeec3450c7f7fcb8e2a08578ef86f2aeb24dc5da1fc56c37dcb0c0",
+        "size_in_bytes": 78054
+      },
+      {
+        "_path": "Library/include/H5Gpublic.h",
+        "path_type": "hardlink",
+        "sha256": "383f49bf2e9bbe6124a0d2bc1ae461c1fce8c553140f6f919b771b119ffe73a8",
+        "sha256_in_prefix": "383f49bf2e9bbe6124a0d2bc1ae461c1fce8c553140f6f919b771b119ffe73a8",
+        "size_in_bytes": 42139
+      },
+      {
+        "_path": "Library/include/H5Group.h",
+        "path_type": "hardlink",
+        "sha256": "4fc26a0b0ff1959afa01fbb5330299d787aabc804a892af2ab38f6c584a135aa",
+        "sha256_in_prefix": "4fc26a0b0ff1959afa01fbb5330299d787aabc804a892af2ab38f6c584a135aa",
+        "size_in_bytes": 3121
+      },
+      {
+        "_path": "Library/include/H5IMpublic.h",
+        "path_type": "hardlink",
+        "sha256": "ed2b50799a674fa5bcf5421e67ae891a9491480c018a7b565ad9925cc19700af",
+        "sha256_in_prefix": "ed2b50799a674fa5bcf5421e67ae891a9491480c018a7b565ad9925cc19700af",
+        "size_in_bytes": 2560
+      },
+      {
+        "_path": "Library/include/H5IdComponent.h",
+        "path_type": "hardlink",
+        "sha256": "5099eae64ed653c0a4307922f0973c747fd6397cfb5a982af87d1c6bef5f830d",
+        "sha256_in_prefix": "5099eae64ed653c0a4307922f0973c747fd6397cfb5a982af87d1c6bef5f830d",
+        "size_in_bytes": 3820
+      },
+      {
+        "_path": "Library/include/H5Include.h",
+        "path_type": "hardlink",
+        "sha256": "051aa495d64cacc95dfaa68f3da030bd200438f0569c31681d608e44d08ae1be",
+        "sha256_in_prefix": "051aa495d64cacc95dfaa68f3da030bd200438f0569c31681d608e44d08ae1be",
+        "size_in_bytes": 1555
+      },
+      {
+        "_path": "Library/include/H5IntType.h",
+        "path_type": "hardlink",
+        "sha256": "7c175bfe8d4d7f9a9a53db0bbdc7b244acd2b1f14ece6cb7144ee01511e4c4c3",
+        "sha256_in_prefix": "7c175bfe8d4d7f9a9a53db0bbdc7b244acd2b1f14ece6cb7144ee01511e4c4c3",
+        "size_in_bytes": 2490
+      },
+      {
+        "_path": "Library/include/H5Ipublic.h",
+        "path_type": "hardlink",
+        "sha256": "2bc09065b0c478d995ad8456db91c8fab71a5b2771d41308242352a116e5e8aa",
+        "sha256_in_prefix": "2bc09065b0c478d995ad8456db91c8fab71a5b2771d41308242352a116e5e8aa",
+        "size_in_bytes": 26777
+      },
+      {
+        "_path": "Library/include/H5LDpublic.h",
+        "path_type": "hardlink",
+        "sha256": "b8c8b855bc3efd0e36d2fab76aa792815a34a345c46b247b474704f15bf9ef7a",
+        "sha256_in_prefix": "b8c8b855bc3efd0e36d2fab76aa792815a34a345c46b247b474704f15bf9ef7a",
+        "size_in_bytes": 1389
+      },
+      {
+        "_path": "Library/include/H5LTpublic.h",
+        "path_type": "hardlink",
+        "sha256": "cd107e25e3814df1f929b159738ee432891da9fce8d4a710b24df3623008b0e6",
+        "sha256_in_prefix": "cd107e25e3814df1f929b159738ee432891da9fce8d4a710b24df3623008b0e6",
+        "size_in_bytes": 10691
+      },
+      {
+        "_path": "Library/include/H5LaccProp.h",
+        "path_type": "hardlink",
+        "sha256": "e5d03c92fc1982a4e8f9a92cfa88388e6207c3b3dc06d1c904c5ef7d0a5ec599",
+        "sha256_in_prefix": "e5d03c92fc1982a4e8f9a92cfa88388e6207c3b3dc06d1c904c5ef7d0a5ec599",
+        "size_in_bytes": 2622
+      },
+      {
+        "_path": "Library/include/H5LcreatProp.h",
+        "path_type": "hardlink",
+        "sha256": "5d447af3977f5bf7cad5a41348abf60d785fd98114a74ea1de1706578fbf298d",
+        "sha256_in_prefix": "5d447af3977f5bf7cad5a41348abf60d785fd98114a74ea1de1706578fbf298d",
+        "size_in_bytes": 2899
+      },
+      {
+        "_path": "Library/include/H5Library.h",
+        "path_type": "hardlink",
+        "sha256": "05c358bfe9f3d42a4be2af258117bbd51b016ca12ac511d9ba4ec5e765e9f956",
+        "sha256_in_prefix": "05c358bfe9f3d42a4be2af258117bbd51b016ca12ac511d9ba4ec5e765e9f956",
+        "size_in_bytes": 2798
+      },
+      {
+        "_path": "Library/include/H5Location.h",
+        "path_type": "hardlink",
+        "sha256": "ed5af58be3c43519da31c7f787817c41d2a69f8d6bf53a2d30b2f44b9633f0d8",
+        "sha256_in_prefix": "ed5af58be3c43519da31c7f787817c41d2a69f8d6bf53a2d30b2f44b9633f0d8",
+        "size_in_bytes": 19139
+      },
+      {
+        "_path": "Library/include/H5Lpublic.h",
+        "path_type": "hardlink",
+        "sha256": "644f5bb8aa1ee8d30b30c4dba285d6e8ed5c98d47fb94b8b57848ceb39eb26da",
+        "sha256_in_prefix": "644f5bb8aa1ee8d30b30c4dba285d6e8ed5c98d47fb94b8b57848ceb39eb26da",
+        "size_in_bytes": 94570
+      },
+      {
+        "_path": "Library/include/H5MMpublic.h",
+        "path_type": "hardlink",
+        "sha256": "c561d9283c0695ed5769959923bb72a2c7920c169b493382c916dc2189b2532b",
+        "sha256_in_prefix": "c561d9283c0695ed5769959923bb72a2c7920c169b493382c916dc2189b2532b",
+        "size_in_bytes": 1870
+      },
+      {
+        "_path": "Library/include/H5Mpublic.h",
+        "path_type": "hardlink",
+        "sha256": "f00449083814012fe2c89ba123f67c04a2b06baba7d9c6f9a477b422bd2015b6",
+        "sha256_in_prefix": "f00449083814012fe2c89ba123f67c04a2b06baba7d9c6f9a477b422bd2015b6",
+        "size_in_bytes": 14700
+      },
+      {
+        "_path": "Library/include/H5Object.h",
+        "path_type": "hardlink",
+        "sha256": "cd29383e473c352c0e30fcfcf5d36a3fbf3f07d8739697aa3bf6a65fbe3fc4d8",
+        "sha256_in_prefix": "cd29383e473c352c0e30fcfcf5d36a3fbf3f07d8739697aa3bf6a65fbe3fc4d8",
+        "size_in_bytes": 5662
+      },
+      {
+        "_path": "Library/include/H5OcreatProp.h",
+        "path_type": "hardlink",
+        "sha256": "7dc98b8bc987a1a9f56295096c66d03ac2b1c3066692fddc3d870e068366cd00",
+        "sha256_in_prefix": "7dc98b8bc987a1a9f56295096c66d03ac2b1c3066692fddc3d870e068366cd00",
+        "size_in_bytes": 2909
+      },
+      {
+        "_path": "Library/include/H5Opublic.h",
+        "path_type": "hardlink",
+        "sha256": "73204868c739e25f748118b7ded68f15f832f88a8d3828349abdc08c54ce123a",
+        "sha256_in_prefix": "73204868c739e25f748118b7ded68f15f832f88a8d3828349abdc08c54ce123a",
+        "size_in_bytes": 123871
+      },
+      {
+        "_path": "Library/include/H5PLextern.h",
+        "path_type": "hardlink",
+        "sha256": "0cc6ec3e17ad54d85e3fe94ac623e4e5923c585bdcfdef532605efe6e3fd6fb2",
+        "sha256_in_prefix": "0cc6ec3e17ad54d85e3fe94ac623e4e5923c585bdcfdef532605efe6e3fd6fb2",
+        "size_in_bytes": 1514
+      },
+      {
+        "_path": "Library/include/H5PLpublic.h",
+        "path_type": "hardlink",
+        "sha256": "3623c4a346857a664d59fedc295293dfb5081ce273ff41b26c73652fec0bb78d",
+        "sha256_in_prefix": "3623c4a346857a664d59fedc295293dfb5081ce273ff41b26c73652fec0bb78d",
+        "size_in_bytes": 8770
+      },
+      {
+        "_path": "Library/include/H5PTpublic.h",
+        "path_type": "hardlink",
+        "sha256": "a327e177558bb76b111254f6dde8420f11988e0667aa2c3d2d0ab7ad10a5d4f5",
+        "sha256_in_prefix": "a327e177558bb76b111254f6dde8420f11988e0667aa2c3d2d0ab7ad10a5d4f5",
+        "size_in_bytes": 3768
+      },
+      {
+        "_path": "Library/include/H5PacketTable.h",
+        "path_type": "hardlink",
+        "sha256": "898e3e5ea821b5460333fe50b07a51644051f59a349daead97652e8952055588",
+        "sha256_in_prefix": "898e3e5ea821b5460333fe50b07a51644051f59a349daead97652e8952055588",
+        "size_in_bytes": 7773
+      },
+      {
+        "_path": "Library/include/H5Ppublic.h",
+        "path_type": "hardlink",
+        "sha256": "8c6783c8a5f21c629acf34496bedee7b62078311feb1ce56b526c9495c819d03",
+        "sha256_in_prefix": "8c6783c8a5f21c629acf34496bedee7b62078311feb1ce56b526c9495c819d03",
+        "size_in_bytes": 403589
+      },
+      {
+        "_path": "Library/include/H5PredType.h",
+        "path_type": "hardlink",
+        "sha256": "05ebed36973282ceeadf5f2436c25c5de3dd7112d81a0b0d53550f08fe82e0c8",
+        "sha256_in_prefix": "05ebed36973282ceeadf5f2436c25c5de3dd7112d81a0b0d53550f08fe82e0c8",
+        "size_in_bytes": 14863
+      },
+      {
+        "_path": "Library/include/H5PropList.h",
+        "path_type": "hardlink",
+        "sha256": "25b3c6b4980edfe6624d31e4b1c34ec68315a3dafb48e9ecb9e9f981792d7a12",
+        "sha256_in_prefix": "25b3c6b4980edfe6624d31e4b1c34ec68315a3dafb48e9ecb9e9f981792d7a12",
+        "size_in_bytes": 5563
+      },
+      {
+        "_path": "Library/include/H5Rpublic.h",
+        "path_type": "hardlink",
+        "sha256": "8acc03184fcc489115ecfd24b963405f7faede04a9abfbdb96a267d336162f73",
+        "sha256_in_prefix": "8acc03184fcc489115ecfd24b963405f7faede04a9abfbdb96a267d336162f73",
+        "size_in_bytes": 34919
+      },
+      {
+        "_path": "Library/include/H5Spublic.h",
+        "path_type": "hardlink",
+        "sha256": "2c86b042df83e1a51df470760ca741da73ea7b932bb0c39446d4e92ccf8c3013",
+        "sha256_in_prefix": "2c86b042df83e1a51df470760ca741da73ea7b932bb0c39446d4e92ccf8c3013",
+        "size_in_bytes": 54435
+      },
+      {
+        "_path": "Library/include/H5StrType.h",
+        "path_type": "hardlink",
+        "sha256": "14e62163d61b85591abe3dd411febfb55b7f43ebe5954f1670b01c82e07ebb1d",
+        "sha256_in_prefix": "14e62163d61b85591abe3dd411febfb55b7f43ebe5954f1670b01c82e07ebb1d",
+        "size_in_bytes": 2925
+      },
+      {
+        "_path": "Library/include/H5TBpublic.h",
+        "path_type": "hardlink",
+        "sha256": "1abd29dc06964c109c99b2ba4f4f9a963f42fa9b86d40a427fea9d33f9087ad0",
+        "sha256_in_prefix": "1abd29dc06964c109c99b2ba4f4f9a963f42fa9b86d40a427fea9d33f9087ad0",
+        "size_in_bytes": 6275
+      },
+      {
+        "_path": "Library/include/H5Tpublic.h",
+        "path_type": "hardlink",
+        "sha256": "fbbad535d958d02efb353d85a8bd14ae8cf326a598a6da42d17aaeff3dbb7207",
+        "sha256_in_prefix": "fbbad535d958d02efb353d85a8bd14ae8cf326a598a6da42d17aaeff3dbb7207",
+        "size_in_bytes": 100151
+      },
+      {
+        "_path": "Library/include/H5VLconnector.h",
+        "path_type": "hardlink",
+        "sha256": "3cab74d7eb34a86e907fd5c447be928b445c59c6143c831abf54a363eddb5027",
+        "sha256_in_prefix": "3cab74d7eb34a86e907fd5c447be928b445c59c6143c831abf54a363eddb5027",
+        "size_in_bytes": 26021
+      },
+      {
+        "_path": "Library/include/H5VLconnector_passthru.h",
+        "path_type": "hardlink",
+        "sha256": "d8eb90170d9f87b013426598244d767213eedaf8c34122faa23e3f9ddab6c29a",
+        "sha256_in_prefix": "d8eb90170d9f87b013426598244d767213eedaf8c34122faa23e3f9ddab6c29a",
+        "size_in_bytes": 15101
+      },
+      {
+        "_path": "Library/include/H5VLnative.h",
+        "path_type": "hardlink",
+        "sha256": "4201259ec195dd7c6db9978028e7ef7dd255aa3a45ffaa7dcd18690d403f39b2",
+        "sha256_in_prefix": "4201259ec195dd7c6db9978028e7ef7dd255aa3a45ffaa7dcd18690d403f39b2",
+        "size_in_bytes": 7521
+      },
+      {
+        "_path": "Library/include/H5VLpassthru.h",
+        "path_type": "hardlink",
+        "sha256": "df389dda82f15dde4f67be02daa61a43688d41cbaa42b178c2a2fb0de9d0db2b",
+        "sha256_in_prefix": "df389dda82f15dde4f67be02daa61a43688d41cbaa42b178c2a2fb0de9d0db2b",
+        "size_in_bytes": 1765
+      },
+      {
+        "_path": "Library/include/H5VLpublic.h",
+        "path_type": "hardlink",
+        "sha256": "4efc854edc6ce9ba6e93a58521a69b9f72f2540aa66d175c1bd82e81bd3f9f81",
+        "sha256_in_prefix": "4efc854edc6ce9ba6e93a58521a69b9f72f2540aa66d175c1bd82e81bd3f9f81",
+        "size_in_bytes": 12787
+      },
+      {
+        "_path": "Library/include/H5VarLenType.h",
+        "path_type": "hardlink",
+        "sha256": "f7bfd60245c278d14cb20907db1b58e67279a6877b144ad050ba601476054848",
+        "sha256_in_prefix": "f7bfd60245c278d14cb20907db1b58e67279a6877b144ad050ba601476054848",
+        "size_in_bytes": 2397
+      },
+      {
+        "_path": "Library/include/H5Zpublic.h",
+        "path_type": "hardlink",
+        "sha256": "e725b83565bc95bd1c603ce04a1088b4721cb661bc246cd83a04201eaaf2d9f7",
+        "sha256_in_prefix": "e725b83565bc95bd1c603ce04a1088b4721cb661bc246cd83a04201eaaf2d9f7",
+        "size_in_bytes": 27759
+      },
+      {
+        "_path": "Library/include/H5api_adpt.h",
+        "path_type": "hardlink",
+        "sha256": "b686494a4f6260149d394463cd185536401dd2e8e8bce171093528e4c3d86152",
+        "sha256_in_prefix": "b686494a4f6260149d394463cd185536401dd2e8e8bce171093528e4c3d86152",
+        "size_in_bytes": 9269
+      },
+      {
+        "_path": "Library/include/H5overflow.h",
+        "path_type": "hardlink",
+        "sha256": "925e47053f21b63065d9e6a8eb4428be0002e9bff13dea79f1b18b9c5cbaee18",
+        "sha256_in_prefix": "925e47053f21b63065d9e6a8eb4428be0002e9bff13dea79f1b18b9c5cbaee18",
+        "size_in_bytes": 151494
+      },
+      {
+        "_path": "Library/include/H5pubconf.h",
+        "path_type": "hardlink",
+        "sha256": "bbb28f07698abbec8138370d093b3566ecc8beea4e6dc6702074066cfc8706c8",
+        "sha256_in_prefix": "bbb28f07698abbec8138370d093b3566ecc8beea4e6dc6702074066cfc8706c8",
+        "size_in_bytes": 24770
+      },
+      {
+        "_path": "Library/include/H5public.h",
+        "path_type": "hardlink",
+        "sha256": "35ddaac3bf6d793cacc49df13a93e82461c5ea03d12c2b2f0d96bca3e48b1728",
+        "sha256_in_prefix": "35ddaac3bf6d793cacc49df13a93e82461c5ea03d12c2b2f0d96bca3e48b1728",
+        "size_in_bytes": 36634
+      },
+      {
+        "_path": "Library/include/H5version.h",
+        "path_type": "hardlink",
+        "sha256": "6a2ba9d0b03768cdc0c0bc3c62a646c3e1180c9a639810613b231d25aa794ef7",
+        "sha256_in_prefix": "6a2ba9d0b03768cdc0c0bc3c62a646c3e1180c9a639810613b231d25aa794ef7",
+        "size_in_bytes": 29219
+      },
+      {
+        "_path": "Library/include/hdf5.h",
+        "path_type": "hardlink",
+        "sha256": "7a2d33beabdbba355a8abca7b12446d563053df141874f623e5c2fc419ebfbcd",
+        "sha256_in_prefix": "7a2d33beabdbba355a8abca7b12446d563053df141874f623e5c2fc419ebfbcd",
+        "size_in_bytes": 3741
+      },
+      {
+        "_path": "Library/include/hdf5_hl.h",
+        "path_type": "hardlink",
+        "sha256": "713e4c52b44d5c86b5210928dff097859cf715289e926c07c9752e40be9e707e",
+        "sha256_in_prefix": "713e4c52b44d5c86b5210928dff097859cf715289e926c07c9752e40be9e707e",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "Library/lib/hdf5.lib",
+        "path_type": "hardlink",
+        "sha256": "7cc8bbbc421f931273e69acbbd5bcc5e523d84ea5ea8a6ad25a32552deb50751",
+        "sha256_in_prefix": "7cc8bbbc421f931273e69acbbd5bcc5e523d84ea5ea8a6ad25a32552deb50751",
+        "size_in_bytes": 716656
+      },
+      {
+        "_path": "Library/lib/hdf5_cpp.lib",
+        "path_type": "hardlink",
+        "sha256": "17786c79a60b06583ffab246c8ebdc9ccec941d411d5b92e4036419f3efa1dc7",
+        "sha256_in_prefix": "17786c79a60b06583ffab246c8ebdc9ccec941d411d5b92e4036419f3efa1dc7",
+        "size_in_bytes": 403950
+      },
+      {
+        "_path": "Library/lib/hdf5_hl.lib",
+        "path_type": "hardlink",
+        "sha256": "0771ed6b5c60e980a77b97b4b544fb607d8a7ad354b32f6447d8f0fbe618b05b",
+        "sha256_in_prefix": "0771ed6b5c60e980a77b97b4b544fb607d8a7ad354b32f6447d8f0fbe618b05b",
+        "size_in_bytes": 28104
+      },
+      {
+        "_path": "Library/lib/hdf5_hl_cpp.lib",
+        "path_type": "hardlink",
+        "sha256": "04558abde69bd35918ba76c2e3aba591f5dc0a42fa8a5f9fc7a71fd0a2b7e171",
+        "sha256_in_prefix": "04558abde69bd35918ba76c2e3aba591f5dc0a42fa8a5f9fc7a71fd0a2b7e171",
+        "size_in_bytes": 11804
+      },
+      {
+        "_path": "Library/lib/hdf5_tools.lib",
+        "path_type": "hardlink",
+        "sha256": "04d4ae9da56df9bb074b087b3236a9127c827845a130ccb0b6d50c7a46a18eeb",
+        "sha256_in_prefix": "04d4ae9da56df9bb074b087b3236a9127c827845a130ccb0b6d50c7a46a18eeb",
+        "size_in_bytes": 33906
+      },
+      {
+        "_path": "Library/lib/libhdf5.lib",
+        "path_type": "hardlink",
+        "sha256": "5bddb0be6a3321bb5a9298c2c2d0597af1a7503f9aafabe30696ea30495a7bb9",
+        "sha256_in_prefix": "5bddb0be6a3321bb5a9298c2c2d0597af1a7503f9aafabe30696ea30495a7bb9",
+        "size_in_bytes": 12667982
+      },
+      {
+        "_path": "Library/lib/libhdf5.settings",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_e4nt8ttmb0/croot/hdf5_1686163951797/_h_env",
+        "sha256": "1431d87309c2e46e0549db039af97afe4d15f7ed61b9b5ce606f797e520005c0",
+        "sha256_in_prefix": "9a8d2c8fb8102364a76e341c33b87c3d3e8acaf8660f1665ff557934e5fe650b",
+        "size_in_bytes": 3449
+      },
+      {
+        "_path": "Library/lib/libhdf5_cpp.lib",
+        "path_type": "hardlink",
+        "sha256": "67b7be3eea9856b5ae520fa4055d83c345aac35e40933a38d00171e01864c731",
+        "sha256_in_prefix": "67b7be3eea9856b5ae520fa4055d83c345aac35e40933a38d00171e01864c731",
+        "size_in_bytes": 2406882
+      },
+      {
+        "_path": "Library/lib/libhdf5_hl.lib",
+        "path_type": "hardlink",
+        "sha256": "c3db7dafa9e25ec47bed4ff1ced6043e26beb7fc14f41f2d61f0f3beeb43d39d",
+        "sha256_in_prefix": "c3db7dafa9e25ec47bed4ff1ced6043e26beb7fc14f41f2d61f0f3beeb43d39d",
+        "size_in_bytes": 299382
+      },
+      {
+        "_path": "Library/lib/libhdf5_hl_cpp.lib",
+        "path_type": "hardlink",
+        "sha256": "bb4f47bd23d9f4b41668d27b015dcb234f4f05e61a0aebc2113f6d1a08e93936",
+        "sha256_in_prefix": "bb4f47bd23d9f4b41668d27b015dcb234f4f05e61a0aebc2113f6d1a08e93936",
+        "size_in_bytes": 16984
+      },
+      {
+        "_path": "Library/lib/libhdf5_tools.lib",
+        "path_type": "hardlink",
+        "sha256": "93638a97d80dd4e55ecf8e7330574ec52d55aeefa4f095671a482ee87afb4941",
+        "sha256_in_prefix": "93638a97d80dd4e55ecf8e7330574ec52d55aeefa4f095671a482ee87afb4941",
+        "size_in_bytes": 725672
+      },
+      {
+        "_path": "Library/lib/pkgconfig/hdf5.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_e4nt8ttmb0/croot/hdf5_1686163951797/_h_env",
+        "sha256": "dda856021f5702e959c32003db3d5d4230c0120314520842603021e0091e7684",
+        "sha256_in_prefix": "4e04777c96b6e5e7d681f70dc9ed78e48ac35e4f44074ece75ad163dd7dfe44a",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "Library/lib/pkgconfig/hdf5_cpp.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_e4nt8ttmb0/croot/hdf5_1686163951797/_h_env",
+        "sha256": "f086e9beb55e1ceb3422364f67427fd97a65072cb2aa87b5a9c84c20cf896b6f",
+        "sha256_in_prefix": "b6083c5fdd063c7efb23139a32c2c7f14ae2cd7705e18e339fe7cfe01581e7bc",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "Library/lib/pkgconfig/hdf5_hl.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_e4nt8ttmb0/croot/hdf5_1686163951797/_h_env",
+        "sha256": "1d77a9415535d44b2e895556dff24a083f9846a47537a73bb90ec2fbafbbee26",
+        "sha256_in_prefix": "5fa8639ad028d96b4204581a4d8a4beb70a44732093224eb842817b1c70eb082",
+        "size_in_bytes": 385
+      },
+      {
+        "_path": "Library/lib/pkgconfig/hdf5_hl_cpp.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_e4nt8ttmb0/croot/hdf5_1686163951797/_h_env",
+        "sha256": "18a1827622eda2d7dd921bf4805055b69dfb7842bac37ccd5171aa374844ca23",
+        "sha256_in_prefix": "8ab70712e0ba24b27568ec7bcec1dc152b541b12756b434f94a8f7bcbf9211d8",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "Library/share/cmake/hdf5/hdf5-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "f4fc1b92fe24ea8a468dd4206e71d9369646468ef8ec9878c0bb4fdcebbdf26f",
+        "sha256_in_prefix": "f4fc1b92fe24ea8a468dd4206e71d9369646468ef8ec9878c0bb4fdcebbdf26f",
+        "size_in_bytes": 3884
+      },
+      {
+        "_path": "Library/share/cmake/hdf5/hdf5-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "3b565c29cb464a9d98cf29852266cf32aa3bc4b2d3e45e7bf393975576242034",
+        "sha256_in_prefix": "3b565c29cb464a9d98cf29852266cf32aa3bc4b2d3e45e7bf393975576242034",
+        "size_in_bytes": 9900
+      },
+      {
+        "_path": "Library/share/cmake/hdf5/hdf5-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "fed01b0ecc1128cc7d578aa25df74264af6742e7c824c145a796c0d4e5562be0",
+        "sha256_in_prefix": "fed01b0ecc1128cc7d578aa25df74264af6742e7c824c145a796c0d4e5562be0",
+        "size_in_bytes": 19899
+      },
+      {
+        "_path": "Library/share/cmake/hdf5/hdf5-targets.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_e4nt8ttmb0/croot/hdf5_1686163951797/_h_env",
+        "sha256": "e6ceb75b31725851bcd0dc6d9efc71fb312dccd0324897916e73bf2cdcd61660",
+        "sha256_in_prefix": "56b9fd2be888869af1f8a548f0586678adc9436b9d60cc7db4e262aa08b1e03b",
+        "size_in_bytes": 9919
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7eb49f0ed73faeb05448ebe8c3b6c4c130c7b493d960fe2707f5f5b698979740",
+  "size": 12486857,
+  "subdir": "win-64",
+  "timestamp": 1686164892135,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64/hdf5-1.12.1-h51c971a_3.conda",
+  "version": "1.12.1"
+}

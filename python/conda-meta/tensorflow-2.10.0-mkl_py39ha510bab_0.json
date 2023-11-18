@@ -1,0 +1,42 @@
+{
+  "build": "mkl_py39ha510bab_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "_tflow_select 2.3.0 mkl",
+    "python 3.9.*",
+    "tensorboard 2.10.*",
+    "tensorflow-base 2.10.0 mkl_py39h6a7f48e_0",
+    "tensorflow-estimator 2.10.*"
+  ],
+  "extracted_package_dir": "D:\\Anaconda\\pkgs\\tensorflow-2.10.0-mkl_py39ha510bab_0",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "tensorflow-2.10.0-mkl_py39ha510bab_0.conda",
+  "legacy_bz2_md5": "97f9cd657ff7b9e9b1f3d00fa68d0c58",
+  "legacy_bz2_size": 4750,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "D:\\Anaconda\\pkgs\\tensorflow-2.10.0-mkl_py39ha510bab_0",
+    "type": 1
+  },
+  "md5": "2ab9d3308c6e1218e9756d4422ec940b",
+  "name": "tensorflow",
+  "package_tarball_full_path": "D:\\Anaconda\\pkgs\\tensorflow-2.10.0-mkl_py39ha510bab_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "tensorflow",
+  "sha256": "9d389ed7452520bbc29edcee2139a0e8efe7ff29ad555f1520e33b2c39fc40dc",
+  "size": 4988,
+  "subdir": "win-64",
+  "timestamp": 1670953194723,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64/tensorflow-2.10.0-mkl_py39ha510bab_0.conda",
+  "version": "2.10.0"
+}

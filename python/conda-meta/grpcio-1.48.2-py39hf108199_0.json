@@ -1,0 +1,993 @@
+{
+  "build": "py39hf108199_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "abseil-cpp >=20211102.0,<20211102.1.0a0",
+    "c-ares >=1.19.0,<2.0a0",
+    "grpc-cpp 1.48.2 hf108199_0",
+    "libprotobuf >=3.20.3,<3.21.0a0",
+    "openssl >=1.1.1t,<1.1.2a",
+    "python >=3.9,<3.10.0a0",
+    "re2 >=2022.4.1,<2022.4.2.0a0",
+    "six >=1.6.0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "extracted_package_dir": "D:\\Anaconda\\pkgs\\grpcio-1.48.2-py39hf108199_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/grpc/__init__.py",
+    "Lib/site-packages/grpc/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_auth.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_channel.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_common.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_compression.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_grpcio_metadata.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_interceptor.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_plugin_wrapping.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_runtime_protos.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_server.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_simple_stubs.cpython-39.pyc",
+    "Lib/site-packages/grpc/__pycache__/_utilities.cpython-39.pyc",
+    "Lib/site-packages/grpc/_auth.py",
+    "Lib/site-packages/grpc/_channel.py",
+    "Lib/site-packages/grpc/_common.py",
+    "Lib/site-packages/grpc/_compression.py",
+    "Lib/site-packages/grpc/_cython/__init__.py",
+    "Lib/site-packages/grpc/_cython/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/_cython/_credentials/roots.pem",
+    "Lib/site-packages/grpc/_cython/_cygrpc/__init__.py",
+    "Lib/site-packages/grpc/_cython/_cygrpc/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/_cython/cygrpc.cp39-win_amd64.pyd",
+    "Lib/site-packages/grpc/_grpcio_metadata.py",
+    "Lib/site-packages/grpc/_interceptor.py",
+    "Lib/site-packages/grpc/_plugin_wrapping.py",
+    "Lib/site-packages/grpc/_runtime_protos.py",
+    "Lib/site-packages/grpc/_server.py",
+    "Lib/site-packages/grpc/_simple_stubs.py",
+    "Lib/site-packages/grpc/_utilities.py",
+    "Lib/site-packages/grpc/aio/__init__.py",
+    "Lib/site-packages/grpc/aio/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/__pycache__/_base_call.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/__pycache__/_base_channel.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/__pycache__/_base_server.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/__pycache__/_call.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/__pycache__/_channel.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/__pycache__/_interceptor.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/__pycache__/_metadata.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/__pycache__/_server.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/__pycache__/_typing.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/__pycache__/_utils.cpython-39.pyc",
+    "Lib/site-packages/grpc/aio/_base_call.py",
+    "Lib/site-packages/grpc/aio/_base_channel.py",
+    "Lib/site-packages/grpc/aio/_base_server.py",
+    "Lib/site-packages/grpc/aio/_call.py",
+    "Lib/site-packages/grpc/aio/_channel.py",
+    "Lib/site-packages/grpc/aio/_interceptor.py",
+    "Lib/site-packages/grpc/aio/_metadata.py",
+    "Lib/site-packages/grpc/aio/_server.py",
+    "Lib/site-packages/grpc/aio/_typing.py",
+    "Lib/site-packages/grpc/aio/_utils.py",
+    "Lib/site-packages/grpc/beta/__init__.py",
+    "Lib/site-packages/grpc/beta/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/beta/__pycache__/_client_adaptations.cpython-39.pyc",
+    "Lib/site-packages/grpc/beta/__pycache__/_metadata.cpython-39.pyc",
+    "Lib/site-packages/grpc/beta/__pycache__/_server_adaptations.cpython-39.pyc",
+    "Lib/site-packages/grpc/beta/__pycache__/implementations.cpython-39.pyc",
+    "Lib/site-packages/grpc/beta/__pycache__/interfaces.cpython-39.pyc",
+    "Lib/site-packages/grpc/beta/__pycache__/utilities.cpython-39.pyc",
+    "Lib/site-packages/grpc/beta/_client_adaptations.py",
+    "Lib/site-packages/grpc/beta/_metadata.py",
+    "Lib/site-packages/grpc/beta/_server_adaptations.py",
+    "Lib/site-packages/grpc/beta/implementations.py",
+    "Lib/site-packages/grpc/beta/interfaces.py",
+    "Lib/site-packages/grpc/beta/utilities.py",
+    "Lib/site-packages/grpc/experimental/__init__.py",
+    "Lib/site-packages/grpc/experimental/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/experimental/__pycache__/gevent.cpython-39.pyc",
+    "Lib/site-packages/grpc/experimental/__pycache__/session_cache.cpython-39.pyc",
+    "Lib/site-packages/grpc/experimental/aio/__init__.py",
+    "Lib/site-packages/grpc/experimental/aio/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/experimental/gevent.py",
+    "Lib/site-packages/grpc/experimental/session_cache.py",
+    "Lib/site-packages/grpc/framework/__init__.py",
+    "Lib/site-packages/grpc/framework/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/common/__init__.py",
+    "Lib/site-packages/grpc/framework/common/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/common/__pycache__/cardinality.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/common/__pycache__/style.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/common/cardinality.py",
+    "Lib/site-packages/grpc/framework/common/style.py",
+    "Lib/site-packages/grpc/framework/foundation/__init__.py",
+    "Lib/site-packages/grpc/framework/foundation/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/foundation/__pycache__/abandonment.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/foundation/__pycache__/callable_util.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/foundation/__pycache__/future.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/foundation/__pycache__/logging_pool.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/foundation/__pycache__/stream.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/foundation/__pycache__/stream_util.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/foundation/abandonment.py",
+    "Lib/site-packages/grpc/framework/foundation/callable_util.py",
+    "Lib/site-packages/grpc/framework/foundation/future.py",
+    "Lib/site-packages/grpc/framework/foundation/logging_pool.py",
+    "Lib/site-packages/grpc/framework/foundation/stream.py",
+    "Lib/site-packages/grpc/framework/foundation/stream_util.py",
+    "Lib/site-packages/grpc/framework/interfaces/__init__.py",
+    "Lib/site-packages/grpc/framework/interfaces/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/interfaces/base/__init__.py",
+    "Lib/site-packages/grpc/framework/interfaces/base/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/interfaces/base/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/interfaces/base/__pycache__/utilities.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/interfaces/base/base.py",
+    "Lib/site-packages/grpc/framework/interfaces/base/utilities.py",
+    "Lib/site-packages/grpc/framework/interfaces/face/__init__.py",
+    "Lib/site-packages/grpc/framework/interfaces/face/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/interfaces/face/__pycache__/face.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/interfaces/face/__pycache__/utilities.cpython-39.pyc",
+    "Lib/site-packages/grpc/framework/interfaces/face/face.py",
+    "Lib/site-packages/grpc/framework/interfaces/face/utilities.py",
+    "Lib/site-packages/grpcio-1.48.2.dist-info/INSTALLER",
+    "Lib/site-packages/grpcio-1.48.2.dist-info/LICENSE",
+    "Lib/site-packages/grpcio-1.48.2.dist-info/METADATA",
+    "Lib/site-packages/grpcio-1.48.2.dist-info/RECORD",
+    "Lib/site-packages/grpcio-1.48.2.dist-info/REQUESTED",
+    "Lib/site-packages/grpcio-1.48.2.dist-info/WHEEL",
+    "Lib/site-packages/grpcio-1.48.2.dist-info/direct_url.json",
+    "Lib/site-packages/grpcio-1.48.2.dist-info/top_level.txt",
+    ".nonadmin"
+  ],
+  "fn": "grpcio-1.48.2-py39hf108199_0.conda",
+  "legacy_bz2_md5": "475ecd56356137a9db17f42df80f1ec1",
+  "legacy_bz2_size": 2140650,
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "D:\\Anaconda\\pkgs\\grpcio-1.48.2-py39hf108199_0",
+    "type": 1
+  },
+  "md5": "b351eb5de3f7ae9e7302497c62e9dfad",
+  "name": "grpcio",
+  "package_tarball_full_path": "D:\\Anaconda\\pkgs\\grpcio-1.48.2-py39hf108199_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/grpc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e0e2b4e218035768deb193332616cd550fa252eb2cae1a9e3960a7272e6f87b5",
+        "sha256_in_prefix": "e0e2b4e218035768deb193332616cd550fa252eb2cae1a9e3960a7272e6f87b5",
+        "size_in_bytes": 82896
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ce5d9cf019bd4408a19589f400c14b5e27ff79c25668159f7ed4eb9e9a8a840",
+        "sha256_in_prefix": "4ce5d9cf019bd4408a19589f400c14b5e27ff79c25668159f7ed4eb9e9a8a840",
+        "size_in_bytes": 81500
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_auth.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b25c472a139d9c08f3bb5ece8f5180bbcdfcc461ce0d0a2f3796d69a1abb5d1e",
+        "sha256_in_prefix": "b25c472a139d9c08f3bb5ece8f5180bbcdfcc461ce0d0a2f3796d69a1abb5d1e",
+        "size_in_bytes": 1832
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_channel.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ecb02653d9f4aa670f63935d93e38f014aeb127b8c72c0e60df7a0780277835",
+        "sha256_in_prefix": "7ecb02653d9f4aa670f63935d93e38f014aeb127b8c72c0e60df7a0780277835",
+        "size_in_bytes": 46001
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_common.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e414e76dd6a0227e9669690a268cf36dc2ac8d41c9118a28291a44c9e8dd11f1",
+        "sha256_in_prefix": "e414e76dd6a0227e9669690a268cf36dc2ac8d41c9118a28291a44c9e8dd11f1",
+        "size_in_bytes": 5187
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_compression.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5e1f87d9ffcea8f6eb67a6b5a88519d055d5871033188a9402868fc977d94e4",
+        "sha256_in_prefix": "a5e1f87d9ffcea8f6eb67a6b5a88519d055d5871033188a9402868fc977d94e4",
+        "size_in_bytes": 1163
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_grpcio_metadata.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a73b8c7338e469df8f65edc664ec25fa3f5ec7b0f6ec7c1dec8dbee23ed1e34",
+        "sha256_in_prefix": "8a73b8c7338e469df8f65edc664ec25fa3f5ec7b0f6ec7c1dec8dbee23ed1e34",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_interceptor.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a23e3e5461b9e0d74364aa3809c79d71684fd2e985aca5e3bddfe7844449a850",
+        "sha256_in_prefix": "a23e3e5461b9e0d74364aa3809c79d71684fd2e985aca5e3bddfe7844449a850",
+        "size_in_bytes": 16760
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_plugin_wrapping.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "744b369753a06d5ed1364ace185b33e96e42983aab895e23cb03d7a670c4dab2",
+        "sha256_in_prefix": "744b369753a06d5ed1364ace185b33e96e42983aab895e23cb03d7a670c4dab2",
+        "size_in_bytes": 3083
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_runtime_protos.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3562f965199f9d30c22d134744e9684b036539798b8402da2c0f412db076e93",
+        "sha256_in_prefix": "a3562f965199f9d30c22d134744e9684b036539798b8402da2c0f412db076e93",
+        "size_in_bytes": 4949
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_server.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "409d41daa52b2521949527b0ed92ea9378969e13fe5e806dfd98dd7d14b8cddc",
+        "sha256_in_prefix": "409d41daa52b2521949527b0ed92ea9378969e13fe5e806dfd98dd7d14b8cddc",
+        "size_in_bytes": 28839
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_simple_stubs.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7cf4c51d0bad974985469316e56ebbeb4d4022cef53e107a25620e170a4734fd",
+        "sha256_in_prefix": "7cf4c51d0bad974985469316e56ebbeb4d4022cef53e107a25620e170a4734fd",
+        "size_in_bytes": 17987
+      },
+      {
+        "_path": "Lib/site-packages/grpc/__pycache__/_utilities.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "16cf516ac5dd752b3b749aa719e09a8a0f2bd7aa41460a3d262e32e5eda788e0",
+        "sha256_in_prefix": "16cf516ac5dd752b3b749aa719e09a8a0f2bd7aa41460a3d262e32e5eda788e0",
+        "size_in_bytes": 5350
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_auth.py",
+        "path_type": "hardlink",
+        "sha256": "5b53a5cf7b516b172e4479b13d4714bc042391aebaa0ccb1fca8a2a95fd9e458",
+        "sha256_in_prefix": "5b53a5cf7b516b172e4479b13d4714bc042391aebaa0ccb1fca8a2a95fd9e458",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_channel.py",
+        "path_type": "hardlink",
+        "sha256": "f154044814cb89eb6cee9a35cd479bc2a541659e50507be40f23e1c6f0560042",
+        "sha256_in_prefix": "f154044814cb89eb6cee9a35cd479bc2a541659e50507be40f23e1c6f0560042",
+        "size_in_bytes": 63514
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_common.py",
+        "path_type": "hardlink",
+        "sha256": "88efed41610669c64ff0cebaf4fcc029eb15a2431e15e6841100788130a0f8c2",
+        "sha256_in_prefix": "88efed41610669c64ff0cebaf4fcc029eb15a2431e15e6841100788130a0f8c2",
+        "size_in_bytes": 6254
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_compression.py",
+        "path_type": "hardlink",
+        "sha256": "17d0bba2b88e8e5cf6b35ebcac52bdf4fe85ee6201ffcd98cfc5c7d88e4eeb80",
+        "sha256_in_prefix": "17d0bba2b88e8e5cf6b35ebcac52bdf4fe85ee6201ffcd98cfc5c7d88e4eeb80",
+        "size_in_bytes": 1695
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_cython/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "sha256_in_prefix": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_cython/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e1e8b7a57b82374d8e017d9d9c2e68d245823f6cb28a57d8d83c64897b5ad2c",
+        "sha256_in_prefix": "5e1e8b7a57b82374d8e017d9d9c2e68d245823f6cb28a57d8d83c64897b5ad2c",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_cython/_credentials/roots.pem",
+        "path_type": "hardlink",
+        "sha256": "96143344c4ae109588125b2c41d5daf654a5fafc6e23fac37f7ba3d29da7e776",
+        "sha256_in_prefix": "96143344c4ae109588125b2c41d5daf654a5fafc6e23fac37f7ba3d29da7e776",
+        "size_in_bytes": 264440
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_cython/_cygrpc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "sha256_in_prefix": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_cython/_cygrpc/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5023890d93815355e2ec6f7161ea14c38f47a8708896e7808ee307c8824cb9dd",
+        "sha256_in_prefix": "5023890d93815355e2ec6f7161ea14c38f47a8708896e7808ee307c8824cb9dd",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_cython/cygrpc.cp39-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "275a166ace0da23248bfbf817d31adfd422da9639a94b17486238fc11d59f2de",
+        "sha256_in_prefix": "275a166ace0da23248bfbf817d31adfd422da9639a94b17486238fc11d59f2de",
+        "size_in_bytes": 4943872
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_grpcio_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "50de31e869429cac89d031a943a4e9394b3d187d18adb1046f9c6dcf52bc46e0",
+        "sha256_in_prefix": "50de31e869429cac89d031a943a4e9394b3d187d18adb1046f9c6dcf52bc46e0",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_interceptor.py",
+        "path_type": "hardlink",
+        "sha256": "6b9df051f00041535815c53519dbf488f04ca3d8810e3dc48caa5d405a48b8f7",
+        "sha256_in_prefix": "6b9df051f00041535815c53519dbf488f04ca3d8810e3dc48caa5d405a48b8f7",
+        "size_in_bytes": 20367
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_plugin_wrapping.py",
+        "path_type": "hardlink",
+        "sha256": "11e6dc0ea0f94eea7be6c96e41ac5d50c493e8a1c6451f03d19b2576ae1ee850",
+        "sha256_in_prefix": "11e6dc0ea0f94eea7be6c96e41ac5d50c493e8a1c6451f03d19b2576ae1ee850",
+        "size_in_bytes": 3916
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_runtime_protos.py",
+        "path_type": "hardlink",
+        "sha256": "8aedb477ce09872d0c4286276078ab4cec0885b04910428e06f50f5e5f0fada0",
+        "sha256_in_prefix": "8aedb477ce09872d0c4286276078ab4cec0885b04910428e06f50f5e5f0fada0",
+        "size_in_bytes": 5564
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_server.py",
+        "path_type": "hardlink",
+        "sha256": "de73a8bbf11761597b901063fc6d55e91d01f2797531aaf99c626f56005d55a8",
+        "sha256_in_prefix": "de73a8bbf11761597b901063fc6d55e91d01f2797531aaf99c626f56005d55a8",
+        "size_in_bytes": 37668
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_simple_stubs.py",
+        "path_type": "hardlink",
+        "sha256": "ac7f491591e6903909810d0837451c9d6636ab4e5f5da1f7a30483d7ef32466d",
+        "sha256_in_prefix": "ac7f491591e6903909810d0837451c9d6636ab4e5f5da1f7a30483d7ef32466d",
+        "size_in_bytes": 23408
+      },
+      {
+        "_path": "Lib/site-packages/grpc/_utilities.py",
+        "path_type": "hardlink",
+        "sha256": "99f92b732539da6017285efff6cbb2bca996b2a2a6ccf7c03b6b2466144a4845",
+        "sha256_in_prefix": "99f92b732539da6017285efff6cbb2bca996b2a2a6ccf7c03b6b2466144a4845",
+        "size_in_bytes": 5180
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "45cf629f7ed3c41f5fef028826c0d474fdd81b5fa5470e00262f9a79dd9f0165",
+        "sha256_in_prefix": "45cf629f7ed3c41f5fef028826c0d474fdd81b5fa5470e00262f9a79dd9f0165",
+        "size_in_bytes": 3160
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "37cac1a9ac08604dc5bffdc491519262e71de0e54866fb70fb15804baead817a",
+        "sha256_in_prefix": "37cac1a9ac08604dc5bffdc491519262e71de0e54866fb70fb15804baead817a",
+        "size_in_bytes": 2051
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/_base_call.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf98fd9c22f8c88686f7046ee766f5751e09c921f8cb3f8fba4522c52693f83f",
+        "sha256_in_prefix": "bf98fd9c22f8c88686f7046ee766f5751e09c921f8cb3f8fba4522c52693f83f",
+        "size_in_bytes": 7843
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/_base_channel.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1b686d96930896ddb747112a6a1eef4a4fabe9b1724fde9e5a2933621857088",
+        "sha256_in_prefix": "c1b686d96930896ddb747112a6a1eef4a4fabe9b1724fde9e5a2933621857088",
+        "size_in_bytes": 13380
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/_base_server.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b83e9fdf474c0382e8bd4dde94cbc9b5ab90537be95e2cffb4d30722409e5659",
+        "sha256_in_prefix": "b83e9fdf474c0382e8bd4dde94cbc9b5ab90537be95e2cffb4d30722409e5659",
+        "size_in_bytes": 13978
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/_call.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2bfefcb8d0c85dfa20f68f5f2dc07fa3b12882f3a8c6354f85c0ded51845e83b",
+        "sha256_in_prefix": "2bfefcb8d0c85dfa20f68f5f2dc07fa3b12882f3a8c6354f85c0ded51845e83b",
+        "size_in_bytes": 20324
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/_channel.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d554c22f7dfc1cb9e2c124a284b4a907f5c48799a8d6d1b269ec3e9df16a2e2",
+        "sha256_in_prefix": "6d554c22f7dfc1cb9e2c124a284b4a907f5c48799a8d6d1b269ec3e9df16a2e2",
+        "size_in_bytes": 12923
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/_interceptor.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d3a5f5372d62d32b161c8576bdaeeb3559920949c9998113b78448efd3b9edf",
+        "sha256_in_prefix": "4d3a5f5372d62d32b161c8576bdaeeb3559920949c9998113b78448efd3b9edf",
+        "size_in_bytes": 32642
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/_metadata.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d39feea298bc78f949122d42cf32339e5baa5f0cb662da52302ed5bdcad73921",
+        "sha256_in_prefix": "d39feea298bc78f949122d42cf32339e5baa5f0cb662da52302ed5bdcad73921",
+        "size_in_bytes": 4700
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/_server.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "32894934178826c3577e8aa94394505ccccd43f7cdc730f33842363b563d5bb3",
+        "sha256_in_prefix": "32894934178826c3577e8aa94394505ccccd43f7cdc730f33842363b563d5bb3",
+        "size_in_bytes": 8036
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/_typing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2355dd7141a24898844976ab3e3b5afc136bcc15d094d6ef63c4385923d3077",
+        "sha256_in_prefix": "b2355dd7141a24898844976ab3e3b5afc136bcc15d094d6ef63c4385923d3077",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/__pycache__/_utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "190e1fab91519e353490e84a8f009da8d90f27c821b4c415cb0c37d55f865073",
+        "sha256_in_prefix": "190e1fab91519e353490e84a8f009da8d90f27c821b4c415cb0c37d55f865073",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/_base_call.py",
+        "path_type": "hardlink",
+        "sha256": "3e98cb1d2f01b2d13d53c47cbe327acfe8f1399e317b58dee17c53c56f3ecef0",
+        "sha256_in_prefix": "3e98cb1d2f01b2d13d53c47cbe327acfe8f1399e317b58dee17c53c56f3ecef0",
+        "size_in_bytes": 7313
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/_base_channel.py",
+        "path_type": "hardlink",
+        "sha256": "76b81355d07196cfe7283e16b1b4769285b0c78f90bd1d3dcb226623c1aeacfe",
+        "sha256_in_prefix": "76b81355d07196cfe7283e16b1b4769285b0c78f90bd1d3dcb226623c1aeacfe",
+        "size_in_bytes": 13229
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/_base_server.py",
+        "path_type": "hardlink",
+        "sha256": "4d72e14e86b4749b2fecd0172714915ea133f41b8b4ff261a12c604830d10522",
+        "sha256_in_prefix": "4d72e14e86b4749b2fecd0172714915ea133f41b8b4ff261a12c604830d10522",
+        "size_in_bytes": 12188
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/_call.py",
+        "path_type": "hardlink",
+        "sha256": "cf99f1710c707356483000015e5e4fc51c73835aaf2c5618d3d338cf4930257d",
+        "sha256_in_prefix": "cf99f1710c707356483000015e5e4fc51c73835aaf2c5618d3d338cf4930257d",
+        "size_in_bytes": 24469
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/_channel.py",
+        "path_type": "hardlink",
+        "sha256": "fd8835860027f0f705f87e7d044367484174e2dc4906dc053c5450a0b30001eb",
+        "sha256_in_prefix": "fd8835860027f0f705f87e7d044367484174e2dc4906dc053c5450a0b30001eb",
+        "size_in_bytes": 20174
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/_interceptor.py",
+        "path_type": "hardlink",
+        "sha256": "ec2342e1bf65a0d3fe31f26be0d8aa63d74ddef2ebd4465f9b120ea650446380",
+        "sha256_in_prefix": "ec2342e1bf65a0d3fe31f26be0d8aa63d74ddef2ebd4465f9b120ea650446380",
+        "size_in_bytes": 40008
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "7b2bf3986bf3dd9b8180ca38f536bf16944dab6b438af0bc6f44f2bbdf0f0886",
+        "sha256_in_prefix": "7b2bf3986bf3dd9b8180ca38f536bf16944dab6b438af0bc6f44f2bbdf0f0886",
+        "size_in_bytes": 4570
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/_server.py",
+        "path_type": "hardlink",
+        "sha256": "67a2faea984962c7325caebdb069e9ba22ed19b64335a0d4885cb91d182fc6cc",
+        "sha256_in_prefix": "67a2faea984962c7325caebdb069e9ba22ed19b64335a0d4885cb91d182fc6cc",
+        "size_in_bytes": 8699
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/_typing.py",
+        "path_type": "hardlink",
+        "sha256": "3fc0838958cb484fcf79a8521abbae4f920f6fc47dcbb7a9544f1e2cd6aea5bb",
+        "sha256_in_prefix": "3fc0838958cb484fcf79a8521abbae4f920f6fc47dcbb7a9544f1e2cd6aea5bb",
+        "size_in_bytes": 1363
+      },
+      {
+        "_path": "Lib/site-packages/grpc/aio/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "061e7e9503b6c6ccdd65e4c501615f16185a2b2db4965e24b9c0fa7ff6194e58",
+        "sha256_in_prefix": "061e7e9503b6c6ccdd65e4c501615f16185a2b2db4965e24b9c0fa7ff6194e58",
+        "size_in_bytes": 821
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "sha256_in_prefix": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5112619cc8348a69a93f7d4d2948fc7fda831ffdb755d2a919bf2d4d86f4d17",
+        "sha256_in_prefix": "b5112619cc8348a69a93f7d4d2948fc7fda831ffdb755d2a919bf2d4d86f4d17",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/__pycache__/_client_adaptations.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ce83910571c2b1869d06d813c2223491ff6d77ca322a0fc2c5b8ad910f16c6c",
+        "sha256_in_prefix": "1ce83910571c2b1869d06d813c2223491ff6d77ca322a0fc2c5b8ad910f16c6c",
+        "size_in_bytes": 17790
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/__pycache__/_metadata.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d87275f5e82a7b47fd8d2db8fc43b318fc51d1a507edb69f2d6250d32a04b13",
+        "sha256_in_prefix": "8d87275f5e82a7b47fd8d2db8fc43b318fc51d1a507edb69f2d6250d32a04b13",
+        "size_in_bytes": 1338
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/__pycache__/_server_adaptations.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6cace6d0299a419ca113e47ab375bc61f76ee14c668b233b4b0ceda4721a71d2",
+        "sha256_in_prefix": "6cace6d0299a419ca113e47ab375bc61f76ee14c668b233b4b0ceda4721a71d2",
+        "size_in_bytes": 12121
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/__pycache__/implementations.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb53190a8c7a6dd4847ae213505470d175e7e75c7db115e28edc6afbae5c3346",
+        "sha256_in_prefix": "cb53190a8c7a6dd4847ae213505470d175e7e75c7db115e28edc6afbae5c3346",
+        "size_in_bytes": 10028
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/__pycache__/interfaces.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "874cbdd352ddfa4c2f56d22b8a13b670c15fe1300b1bc2933df2c3067bcdab4c",
+        "sha256_in_prefix": "874cbdd352ddfa4c2f56d22b8a13b670c15fe1300b1bc2933df2c3067bcdab4c",
+        "size_in_bytes": 6254
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/__pycache__/utilities.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc880d4e2d7e4676aaf483a19204228514a04b1b847a87c608a5e46719ad0f64",
+        "sha256_in_prefix": "dc880d4e2d7e4676aaf483a19204228514a04b1b847a87c608a5e46719ad0f64",
+        "size_in_bytes": 4581
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/_client_adaptations.py",
+        "path_type": "hardlink",
+        "sha256": "7410e34d709fe152f3ae61c8326001ae7d10266da7d45ce4475684b7a00a8dc7",
+        "sha256_in_prefix": "7410e34d709fe152f3ae61c8326001ae7d10266da7d45ce4475684b7a00a8dc7",
+        "size_in_bytes": 27512
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "f1b54c7e48929d16cdfa968cb4fa9629f2c242c06ef5ca71dad31e5a47e735ac",
+        "sha256_in_prefix": "f1b54c7e48929d16cdfa968cb4fa9629f2c242c06ef5ca71dad31e5a47e735ac",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/_server_adaptations.py",
+        "path_type": "hardlink",
+        "sha256": "c0375061f5e4a9ca6903be42eaede7866648a4ee32849b819dd19b1215405318",
+        "sha256_in_prefix": "c0375061f5e4a9ca6903be42eaede7866648a4ee32849b819dd19b1215405318",
+        "size_in_bytes": 13817
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/implementations.py",
+        "path_type": "hardlink",
+        "sha256": "8593485bbe75307282a12c9c1a412398817f60029c1d62e7bac3b37f5d853f7f",
+        "sha256_in_prefix": "8593485bbe75307282a12c9c1a412398817f60029c1d62e7bac3b37f5d853f7f",
+        "size_in_bytes": 11822
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/interfaces.py",
+        "path_type": "hardlink",
+        "sha256": "7219c6f8761c70893e8e8e5c9d4fb52f8311ed93aa12cb9941549d7a95bc5103",
+        "sha256_in_prefix": "7219c6f8761c70893e8e8e5c9d4fb52f8311ed93aa12cb9941549d7a95bc5103",
+        "size_in_bytes": 5955
+      },
+      {
+        "_path": "Lib/site-packages/grpc/beta/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "f8df0c925292c5b06b7840a8e04108f566dbcdb4f270a065e053e8e277e06cc2",
+        "sha256_in_prefix": "f8df0c925292c5b06b7840a8e04108f566dbcdb4f270a065e053e8e277e06cc2",
+        "size_in_bytes": 4933
+      },
+      {
+        "_path": "Lib/site-packages/grpc/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "94b60450014bc6febf45fc866082ffacc457504f05c23c0cb212e1b33f68e0f8",
+        "sha256_in_prefix": "94b60450014bc6febf45fc866082ffacc457504f05c23c0cb212e1b33f68e0f8",
+        "size_in_bytes": 4058
+      },
+      {
+        "_path": "Lib/site-packages/grpc/experimental/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "78e1f1e15e4ecb1b951dc987ac0df21d33822289191f1fb258a4a0fd0888c859",
+        "sha256_in_prefix": "78e1f1e15e4ecb1b951dc987ac0df21d33822289191f1fb258a4a0fd0888c859",
+        "size_in_bytes": 3390
+      },
+      {
+        "_path": "Lib/site-packages/grpc/experimental/__pycache__/gevent.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d3e39904e55988962876528169984ac480cf757c815d3aa13a1e6f58a93535c4",
+        "sha256_in_prefix": "d3e39904e55988962876528169984ac480cf757c815d3aa13a1e6f58a93535c4",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "Lib/site-packages/grpc/experimental/__pycache__/session_cache.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ec8224273dc799318005275fcd1ce0540415551ba23aab7fc1d86b357929aa7",
+        "sha256_in_prefix": "2ec8224273dc799318005275fcd1ce0540415551ba23aab7fc1d86b357929aa7",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "Lib/site-packages/grpc/experimental/aio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6c8c8374605b3478b917f907bf007238d8dce0cffbe2d872e77626043af564fa",
+        "sha256_in_prefix": "6c8c8374605b3478b917f907bf007238d8dce0cffbe2d872e77626043af564fa",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "Lib/site-packages/grpc/experimental/aio/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a79dc8c0ec17e701f091f35d59cb3e717076e76588e86fb491b353f994da136",
+        "sha256_in_prefix": "0a79dc8c0ec17e701f091f35d59cb3e717076e76588e86fb491b353f994da136",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "Lib/site-packages/grpc/experimental/gevent.py",
+        "path_type": "hardlink",
+        "sha256": "fd8024f5a1f63c2642a5a0a75bdb8663bed6db5df8d9d1169bcc0e540a53c7cf",
+        "sha256_in_prefix": "fd8024f5a1f63c2642a5a0a75bdb8663bed6db5df8d9d1169bcc0e540a53c7cf",
+        "size_in_bytes": 973
+      },
+      {
+        "_path": "Lib/site-packages/grpc/experimental/session_cache.py",
+        "path_type": "hardlink",
+        "sha256": "c006aebc3cf1bd30bafa9de331b3e74dcef2ef89e10ca4918dbd24b5f30f0a6f",
+        "sha256_in_prefix": "c006aebc3cf1bd30bafa9de331b3e74dcef2ef89e10ca4918dbd24b5f30f0a6f",
+        "size_in_bytes": 1533
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "sha256_in_prefix": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2695f3ddccb9783c3eb2afbb9f5a18d14dce014a8effdc35d5244d662d25b084",
+        "sha256_in_prefix": "2695f3ddccb9783c3eb2afbb9f5a18d14dce014a8effdc35d5244d662d25b084",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/common/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "sha256_in_prefix": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/common/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "68f83d5d28d0add241bd5d5af48c9f402a9f8660c2d84f0d42b6d9da6dbda965",
+        "sha256_in_prefix": "68f83d5d28d0add241bd5d5af48c9f402a9f8660c2d84f0d42b6d9da6dbda965",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/common/__pycache__/cardinality.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "65c6fd6cedef3efa15b288aa9453770a76a50e32ec274e9890283383e2605d12",
+        "sha256_in_prefix": "65c6fd6cedef3efa15b288aa9453770a76a50e32ec274e9890283383e2605d12",
+        "size_in_bytes": 707
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/common/__pycache__/style.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "78bd47faeaaf9a4170ca05455b1c6fb76ee5de76f31338b6e401a2be35af1613",
+        "sha256_in_prefix": "78bd47faeaaf9a4170ca05455b1c6fb76ee5de76f31338b6e401a2be35af1613",
+        "size_in_bytes": 537
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/common/cardinality.py",
+        "path_type": "hardlink",
+        "sha256": "db403891ab8c89e1bbe2eae0d77443c9c475f3cdb1e5f3d80cfa1a4a144cbe78",
+        "sha256_in_prefix": "db403891ab8c89e1bbe2eae0d77443c9c475f3cdb1e5f3d80cfa1a4a144cbe78",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/common/style.py",
+        "path_type": "hardlink",
+        "sha256": "5c68c6203309054500dd8fe569c5b5984216f94a40ad68a2b42e4ef15a9240b9",
+        "sha256_in_prefix": "5c68c6203309054500dd8fe569c5b5984216f94a40ad68a2b42e4ef15a9240b9",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "sha256_in_prefix": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2808bcc559875283fe7a5126b95515ffa91080df3afe11aba3e7903503819bd",
+        "sha256_in_prefix": "a2808bcc559875283fe7a5126b95515ffa91080df3afe11aba3e7903503819bd",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/__pycache__/abandonment.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1325577f5f5bb9805fd0f565c512eaff0277f46dcd27be2aa3877df211d50691",
+        "sha256_in_prefix": "1325577f5f5bb9805fd0f565c512eaff0277f46dcd27be2aa3877df211d50691",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/__pycache__/callable_util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5263c4f7c1a696f6a6306e2959c9a0ca96c6f4ab8d63406c76c4e6a6b54f44b5",
+        "sha256_in_prefix": "5263c4f7c1a696f6a6306e2959c9a0ca96c6f4ab8d63406c76c4e6a6b54f44b5",
+        "size_in_bytes": 3140
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/__pycache__/future.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b75102657d8c4604b51f6ddbfd3b70bcee3d4816ba2713496a3f9605e9a661c3",
+        "sha256_in_prefix": "b75102657d8c4604b51f6ddbfd3b70bcee3d4816ba2713496a3f9605e9a661c3",
+        "size_in_bytes": 7078
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/__pycache__/logging_pool.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "01c3426e68b3a9c33d2704720a3c65c590fead8eaf3096496439f978b2fd9a6e",
+        "sha256_in_prefix": "01c3426e68b3a9c33d2704720a3c65c590fead8eaf3096496439f978b2fd9a6e",
+        "size_in_bytes": 2473
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/__pycache__/stream.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "151ca44f2760cad928eff0f550188d044158c78ae329d3e66711186bdc3758c4",
+        "sha256_in_prefix": "151ca44f2760cad928eff0f550188d044158c78ae329d3e66711186bdc3758c4",
+        "size_in_bytes": 1260
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/__pycache__/stream_util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8879bbfa30f9619eae78d942879caf0e425f65c59b3c1562a39725ae7ac7b4b",
+        "sha256_in_prefix": "d8879bbfa30f9619eae78d942879caf0e425f65c59b3c1562a39725ae7ac7b4b",
+        "size_in_bytes": 4671
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/abandonment.py",
+        "path_type": "hardlink",
+        "sha256": "193b8642de4d237ee9d575dd4e5235eef1a2e7e09e70ac8453b49588f5d2a3d1",
+        "sha256_in_prefix": "193b8642de4d237ee9d575dd4e5235eef1a2e7e09e70ac8453b49588f5d2a3d1",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/callable_util.py",
+        "path_type": "hardlink",
+        "sha256": "c95ec0463e127406f8346ea3910d7993229357a747fec3d70edf3541689fbfa2",
+        "sha256_in_prefix": "c95ec0463e127406f8346ea3910d7993229357a747fec3d70edf3541689fbfa2",
+        "size_in_bytes": 3151
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/future.py",
+        "path_type": "hardlink",
+        "sha256": "84bab7ffff75865c22bb06d3fb968e8635b9e2422521ab03b777006afd36353f",
+        "sha256_in_prefix": "84bab7ffff75865c22bb06d3fb968e8635b9e2422521ab03b777006afd36353f",
+        "size_in_bytes": 8091
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/logging_pool.py",
+        "path_type": "hardlink",
+        "sha256": "496c3ea808f8fe7d6af6793868064340cad1af8b7f64e060a80ed07a6cedad22",
+        "sha256_in_prefix": "496c3ea808f8fe7d6af6793868064340cad1af8b7f64e060a80ed07a6cedad22",
+        "size_in_bytes": 2276
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/stream.py",
+        "path_type": "hardlink",
+        "sha256": "1db5c07611efe12cda4d9ac4724458e90e112760c1e84c5fa2ee5adcf5925b50",
+        "sha256_in_prefix": "1db5c07611efe12cda4d9ac4724458e90e112760c1e84c5fa2ee5adcf5925b50",
+        "size_in_bytes": 1389
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/foundation/stream_util.py",
+        "path_type": "hardlink",
+        "sha256": "094c7a81e09207dcf081d944d171d770f49bb8b7ae35f0a5b191728ec415301d",
+        "sha256_in_prefix": "094c7a81e09207dcf081d944d171d770f49bb8b7ae35f0a5b191728ec415301d",
+        "size_in_bytes": 4772
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "sha256_in_prefix": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d856cb48f2d2edb999dd81fb252f07b1eb1285da392925a5c108a4d92795c8ea",
+        "sha256_in_prefix": "d856cb48f2d2edb999dd81fb252f07b1eb1285da392925a5c108a4d92795c8ea",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/base/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "sha256_in_prefix": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/base/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3ea07f931cf9c50a1e1e5804f9ceda83809ec7b8eb2833fb732439cccb24567",
+        "sha256_in_prefix": "a3ea07f931cf9c50a1e1e5804f9ceda83809ec7b8eb2833fb732439cccb24567",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/base/__pycache__/base.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5495a0ff19b17b68fcf3882f056d899989e8a405713240ec21f7f608f1686391",
+        "sha256_in_prefix": "5495a0ff19b17b68fcf3882f056d899989e8a405713240ec21f7f608f1686391",
+        "size_in_bytes": 13034
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/base/__pycache__/utilities.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "29712f28e90e37e847ccced6ea3ad10ddfb8e42916b184522dedf91c4dc7d248",
+        "sha256_in_prefix": "29712f28e90e37e847ccced6ea3ad10ddfb8e42916b184522dedf91c4dc7d248",
+        "size_in_bytes": 1881
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/base/base.py",
+        "path_type": "hardlink",
+        "sha256": "a080320512b2154c7b083e0df4b4a8ba7c347a93d99ec658a891fcc6a0af3d8b",
+        "sha256_in_prefix": "a080320512b2154c7b083e0df4b4a8ba7c347a93d99ec658a891fcc6a0af3d8b",
+        "size_in_bytes": 12046
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/base/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "828aa62511d10fbad72542a29fe1d38b9caa7eea4792de4c63f4100805a217f8",
+        "sha256_in_prefix": "828aa62511d10fbad72542a29fe1d38b9caa7eea4792de4c63f4100805a217f8",
+        "size_in_bytes": 2455
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/face/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "sha256_in_prefix": "c3792a480c9a6603fe5b4f3dd314782f859e04f1abb6c4024097b4154151d0ad",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/face/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c493ab623afc76d625f8e62c152b70ec8114b94d79268ddd030251694b34568",
+        "sha256_in_prefix": "0c493ab623afc76d625f8e62c152b70ec8114b94d79268ddd030251694b34568",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/face/__pycache__/face.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6675e9b9e65d67bf192fa2127f9580eb83ca8f3dc415e98b2cdf63939057cbcf",
+        "sha256_in_prefix": "6675e9b9e65d67bf192fa2127f9580eb83ca8f3dc415e98b2cdf63939057cbcf",
+        "size_in_bytes": 38665
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/face/__pycache__/utilities.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "99e4d12c844f6544d634724ede2f7c7d3d7234d6d0d227ce62d58e4863393a7f",
+        "sha256_in_prefix": "99e4d12c844f6544d634724ede2f7c7d3d7234d6d0d227ce62d58e4863393a7f",
+        "size_in_bytes": 5291
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/face/face.py",
+        "path_type": "hardlink",
+        "sha256": "84cdbfd12a0e1f1d3f95c5c7925b6da7fa732b41dddc91e7ac7e41c1e1dde4fe",
+        "sha256_in_prefix": "84cdbfd12a0e1f1d3f95c5c7925b6da7fa732b41dddc91e7ac7e41c1e1dde4fe",
+        "size_in_bytes": 39620
+      },
+      {
+        "_path": "Lib/site-packages/grpc/framework/interfaces/face/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "c9e83daa72b7676d961273b1a414b2fa3b7893019d5e905a96d05d5dae9c7d15",
+        "sha256_in_prefix": "c9e83daa72b7676d961273b1a414b2fa3b7893019d5e905a96d05d5dae9c7d15",
+        "size_in_bytes": 6711
+      },
+      {
+        "_path": "Lib/site-packages/grpcio-1.48.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/grpcio-1.48.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee",
+        "sha256_in_prefix": "590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee",
+        "size_in_bytes": 29687
+      },
+      {
+        "_path": "Lib/site-packages/grpcio-1.48.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "984e06635f0207ccf3cf277890df9bfbf5526f93af0e5072fee8146e19d8c9cf",
+        "sha256_in_prefix": "984e06635f0207ccf3cf277890df9bfbf5526f93af0e5072fee8146e19d8c9cf",
+        "size_in_bytes": 4113
+      },
+      {
+        "_path": "Lib/site-packages/grpcio-1.48.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d72268774c9d2ccd9b8132bddfc8937e70a91c1368b819513cfab6e1712bcd81",
+        "sha256_in_prefix": "d72268774c9d2ccd9b8132bddfc8937e70a91c1368b819513cfab6e1712bcd81",
+        "size_in_bytes": 8481
+      },
+      {
+        "_path": "Lib/site-packages/grpcio-1.48.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/grpcio-1.48.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "27fe15fe007e3ba63b3e7ea593dd4adbb25a22123eab4ed833927c51fcea95ae",
+        "sha256_in_prefix": "27fe15fe007e3ba63b3e7ea593dd4adbb25a22123eab4ed833927c51fcea95ae",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "Lib/site-packages/grpcio-1.48.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "44b784324f2f098d139087162d448237a450430a688255596d90a9bddd06c8b2",
+        "sha256_in_prefix": "44b784324f2f098d139087162d448237a450430a688255596d90a9bddd06c8b2",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "Lib/site-packages/grpcio-1.48.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "78477626afda550169dfc6d65bc3dfc23cffe6289ba9e3854fedb35e53c0abff",
+        "sha256_in_prefix": "78477626afda550169dfc6d65bc3dfc23cffe6289ba9e3854fedb35e53c0abff",
+        "size_in_bytes": 5
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e2312f9b965855e7695cdc45fd74d698b2eae09e378a519a442e6db6d11679c3",
+  "size": 2078908,
+  "subdir": "win-64",
+  "timestamp": 1681913931372,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64/grpcio-1.48.2-py39hf108199_0.conda",
+  "version": "1.48.2"
+}
